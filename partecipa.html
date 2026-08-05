@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="it" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partecipa al Progetto - Tonnara di Gallipoli</title>
+    <meta name="description" content="Contribuisci al Museo Multimediale della Tonnara di Gallipoli: segnala fotografie, documenti, oggetti e racconti di famiglia legati alla tonnara.">
+    <meta property="og:title" content="Partecipa al Progetto - Tonnara di Gallipoli">
+    <meta property="og:description" content="Condividi il tuo materiale d'epoca e aiutaci a costruire l'archivio digitale e il Museo della Tonnara di Gallipoli.">
+    <meta property="og:image" content="https://www.tonnaradigallipoli.it/assets/img/hero-mare-1920.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="it_IT">
+    <link rel="canonical" href="https://www.tonnaradigallipoli.it/partecipa.html">
+    <link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/partecipa.html">
+    <link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/partecipa-en.html">
+    <link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/partecipa.html">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚓</text></svg>">
+    <link rel="stylesheet" href="assets/css/tailwind.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-abisso text-sabbia font-sans antialiased flex flex-col min-h-screen">
+
+    <!-- PAGE HEADER -->
+    <section id="contenuto" class="relative pt-36 pb-16 overflow-hidden bg-gradient-to-b from-oltremare/40 via-abisso to-abisso border-b border-sabbia/10">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <span class="inline-block py-1 px-3 rounded-full bg-corallo/20 border border-corallo/30 text-corallo text-xs sm:text-sm font-semibold tracking-widest uppercase mb-4">
+                Memoria Collettiva &amp; Community
+            </span>
+            <h1 class="font-serif text-4xl sm:text-6xl font-bold text-sabbia leading-tight mb-6">
+                Costruiamo Insieme la Memoria
+            </h1>
+            <p class="text-lg sm:text-xl text-sabbia/85 max-w-2xl mx-auto font-light leading-relaxed">
+                La storia della Tonnara di Gallipoli non appartiene solo ai libri, ma vive nei cassetti delle nostre case, nei ricordi dei nostri nonni e nei racconti di chi ha vissuto il mare.
+            </p>
+        </div>
+    </section>
+
+    <!-- MANIFESTO -->
+    <section class="py-16 border-b border-sabbia/5">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-oltremare/30 border border-sabbia/15 p-8 sm:p-12 rounded-3xl">
+                <div class="max-w-3xl space-y-6">
+                    <div class="inline-flex items-center space-x-2 text-corallo text-sm font-semibold">
+                        <span class="w-8 h-0.5 bg-corallo"></span>
+                        <span>Perché il tuo contributo è fondamentale</span>
+                    </div>
+                    <h2 class="font-serif text-2xl sm:text-4xl font-bold text-sabbia">
+                        Ogni fotografia è un pezzo di storia che riemerge
+                    </h2>
+                    <p class="text-sabbia/85 leading-relaxed font-light">
+                        Stiamo allestendo l'archivio digitale e curando il percorso del futuro <strong>Museo Multimediale della Tonnara di Gallipoli</strong>. Vogliamo che questo museo sia il grande racconto collettivo di una comunità intera.
+                    </p>
+                    <p class="text-sabbia/85 leading-relaxed font-light">
+                        Che si tratti di un'antica foto ingiallita, un registro di conti, una lettera, un vecchio arnese di bordo o semplicemente un racconto orale tramandato in famiglia, <strong>il tuo materiale farà la differenza</strong>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FORM SEGNALAZIONE -->
+    <section class="py-20">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-oltremare/40 border border-sabbia/15 p-8 sm:p-12 rounded-3xl shadow-2xl">
+                <div class="text-center mb-8">
+                    <h2 class="font-serif text-2xl sm:text-3xl font-bold text-sabbia">Segnala il tuo Contributo</h2>
+                    <p class="text-sabbia/85 text-sm mt-2 font-light">
+                        Compila il modulo. Il nostro comitato ti ricontatterà per la digitalizzazione o il ritiro (senza alcun costo per te).
+                    </p>
+                </div>
+
+                <form id="form-segnalazione" class="space-y-6" novalidate>
+                    <div class="hidden" aria-hidden="true">
+                        <label for="campo-web">Non compilare questo campo</label>
+                        <input type="text" id="campo-web" name="website" tabindex="-1" autocomplete="off">
+                    </div>
+
+                    <div>
+                        <label for="nome" class="block text-xs font-semibold text-sabbia uppercase tracking-wider mb-2">Nome e Cognome *</label>
+                        <input type="text" id="nome" name="nome" required placeholder="Es. Giuseppe Rossi"
+                               class="w-full bg-abisso/90 border border-sabbia/20 rounded-xl px-5 py-3.5 text-sabbia placeholder-sabbia/60 focus:outline-none focus:border-corallo transition text-sm">
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div>
+                            <label for="email" class="block text-xs font-semibold text-sabbia uppercase tracking-wider mb-2">Indirizzo Email *</label>
+                            <input type="email" id="email" name="email" required placeholder="nome@esempio.it"
+                                   class="w-full bg-abisso/90 border border-sabbia/20 rounded-xl px-5 py-3.5 text-sabbia placeholder-sabbia/60 focus:outline-none focus:border-corallo transition text-sm">
+                        </div>
+                        <div>
+                            <label for="telefono" class="block text-xs font-semibold text-sabbia uppercase tracking-wider mb-2">Telefono (Opzionale)</label>
+                            <input type="tel" id="telefono" name="telefono" placeholder="+39 333 1234567"
+                                   class="w-full bg-abisso/90 border border-sabbia/20 rounded-xl px-5 py-3.5 text-sabbia placeholder-sabbia/60 focus:outline-none focus:border-corallo transition text-sm">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="tipo_materiale" class="block text-xs font-semibold text-sabbia uppercase tracking-wider mb-2">Cosa vorresti condividere? *</label>
+                        <select id="tipo_materiale" name="tipo_materiale" required
+                                class="w-full bg-abisso/90 border border-sabbia/20 rounded-xl px-5 py-3.5 text-sabbia focus:outline-none focus:border-corallo transition text-sm">
+                            <option value="" disabled selected>Seleziona tipologia...</option>
+                            <option value="fotografie">Fotografie d'epoca</option>
+                            <option value="documenti">Documenti storici / Mappe</option>
+                            <option value="racconto">Ricordo o racconto di famiglia</option>
+                            <option value="oggetto">Oggetto / Attrezzo di bordo</option>
+                            <option value="altro">Altro / Partnership</option>
+                        </select>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div>
+                            <label for="epoca" class="block text-xs font-semibold text-sabbia uppercase tracking-wider mb-2">Epoca del materiale</label>
+                            <select id="epoca" name="epoca"
+                                    class="w-full bg-abisso/90 border border-sabbia/20 rounded-xl px-5 py-3.5 text-sabbia focus:outline-none focus:border-corallo transition text-sm">
+                                <option value="" selected>Non la conosco</option>
+                                <option value="pre1900">Fino al 1900</option>
+                                <option value="1900-1950">1900 - 1950</option>
+                                <option value="1950-1980">1950 - 1980</option>
+                                <option value="post1980">Dopo il 1980</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="consegna" class="block text-xs font-semibold text-sabbia uppercase tracking-wider mb-2">Come preferisci procedere?</label>
+                            <select id="consegna" name="consegna"
+                                    class="w-full bg-abisso/90 border border-sabbia/20 rounded-xl px-5 py-3.5 text-sabbia focus:outline-none focus:border-corallo transition text-sm">
+                                <option value="digitalizzazione" selected>Digitalizzazione a domicilio</option>
+                                <option value="ritiro">Ritiro del materiale</option>
+                                <option value="invio">Invio digitale (email/allegati)</option>
+                                <option value="nonso">Non so, ne parliamo</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="allegato" class="block text-xs font-semibold text-sabbia uppercase tracking-wider mb-2">Allega una foto del materiale (Opzionale)</label>
+                        <input type="file" id="allegato" name="allegato" accept="image/*,.pdf,.jpg,.jpeg,.png"
+                               class="w-full text-sm text-sabbia file:mr-4 file:py-2.5 file:px-4 file:rounded-xl file:border-0 file:bg-corallo file:text-white file:font-semibold file:cursor-pointer hover:file:bg-ruggine transition bg-abisso/90 border border-sabbia/20 rounded-xl file:mt-1 file:mb-1 px-3 py-1.5">
+                        <p class="text-xs text-sabbia/80 font-light mt-2">
+                            Non inviare file oltre i 10 MB: per materiali voluminosi basterà la segnalazione, il comitato si occuperà della digitalizzazione.
+                        </p>
+                    </div>
+
+                    <div>
+                        <label for="messaggio" class="block text-xs font-semibold text-sabbia uppercase tracking-wider mb-2">Descrizione del materiale *</label>
+                        <textarea id="messaggio" name="messaggio" rows="4" required placeholder="Raccontaci brevemente cosa possiedi, l'epoca approssimativa o la storia legata al tuo materiale..."
+                                  class="w-full bg-abisso/90 border border-sabbia/20 rounded-xl px-5 py-3.5 text-sabbia placeholder-sabbia/60 focus:outline-none focus:border-corallo transition text-sm"></textarea>
+                    </div>
+
+                    <div class="flex items-start space-x-3 text-xs text-sabbia/85 font-light">
+                        <input type="checkbox" id="privacy" name="privacy" required class="mt-0.5 accent-corallo">
+                        <label for="privacy">
+                            Dichiaro di aver letto l'<a href="privacy.html" class="text-corallo underline" target="_blank">Informativa sulla Privacy</a> e acconsento al trattamento dei dati personali.
+                        </label>
+                    </div>
+
+                    <button type="submit" class="w-full bg-corallo hover:bg-ruggine text-white font-bold py-4 rounded-xl shadow-lg transition duration-200">
+                        Invia la tua Segnalazione
+                    </button>
+                </form>
+
+                <div id="segnalazione-ok" class="hidden mt-8 bg-abisso/60 border border-sabbia/15 rounded-2xl p-8 text-center" role="status">
+                    <svg class="w-12 h-12 mx-auto text-corallo mb-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                        <path d="M22 4 12 14.01l-3-3"/>
+                    </svg>
+                    <h3 class="font-serif text-2xl font-bold text-sabbia mb-2">Segnalazione ricevuta!</h3>
+                    <p class="text-sabbia/85 text-sm font-light max-w-md mx-auto">
+                        Grazie per aver condiviso un pezzo di storia. Il nostro comitato ti ricontatterà a breve per organizzare la digitalizzazione o il ritiro del materiale.
+                    </p>
+                    <p class="text-xs text-sabbia/70 font-light mt-4">
+                        In questa fase dimostrativa la segnalazione non viene inviata a un server: al momento del lancio ufficiale verrà collegata alla casella di raccolta del progetto.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ACCESSO RICERCATORI -->
+    <section class="py-20 border-t border-sabbia/5 bg-oltremare/10">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-8">
+                <span class="inline-block py-1 px-3 rounded-full bg-corallo/20 border border-corallo/30 text-corallo text-xs sm:text-sm font-semibold tracking-widest uppercase mb-4">Open Archive</span>
+                <h2 class="font-serif text-2xl sm:text-3xl font-bold text-sabbia">Per Ricercatori e Studiosi</h2>
+                <p class="text-sabbia/85 text-sm mt-2 font-light">
+                    Il museo mette a disposizione degli studiosi la consultazione dell'archivio cartaceo e un catalogo digitale aperto e machine-readable.
+                </p>
+            </div>
+
+            <div class="bg-abisso/70 border border-sabbia/15 rounded-2xl p-6 sm:p-8 mb-8 space-y-3 text-sm font-light text-sabbia/85">
+                <p><span class="text-corallo font-semibold">Archivio cartaceo:</span> Libri Rossi (2 volumi), fascicoli "Tonnara Comunale" e documenti consultabili in sede, su appuntamento.</p>
+                <p><span class="text-corallo font-semibold">Cataloghi digitali:</span> il catalogo delle carte di Piri Reis (Kitab-ı Bahriye, W.658, CC0) e dei materiali digitalizzati è disponibile in formato aperto.</p>
+                <p><span class="text-corallo font-semibold">Citazioni:</span> per l'uso di fonti e immagini segui le istruzioni nella pagina <a href="citare.html" class="text-corallo underline hover:text-ruggine">Come Citare</a>.</p>
+                <p class="pt-1">
+                    <a href="data/catalogo.json" download class="inline-flex items-center gap-2 bg-corallo hover:bg-ruggine text-white px-5 py-2.5 rounded-lg font-semibold text-sm transition duration-200">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3v-1m-4-4-4 4m0 0-4-4m4 4V4"/></svg>
+                        Scarica il Catalogo Dati (JSON)
+                    </a>
+                </p>
+            </div>
+
+            <form id="form-ricercatori" class="bg-oltremare/40 border border-sabbia/15 p-8 sm:p-10 rounded-3xl shadow-2xl space-y-6" novalidate>
+                <h3 class="font-serif text-xl font-bold text-sabbia">Richiedi l'Accesso alla Ricerca</h3>
+                <div class="hidden" aria-hidden="true">
+                    <label for="campo-web-r">Non compilare questo campo</label>
+                    <input type="text" id="campo-web-r" name="website" tabindex="-1" autocomplete="off">
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div>
+                        <label for="r-nome" class="block text-xs font-semibold text-sabbia uppercase tracking-wider mb-2">Nome e Cognome *</label>
+                        <input type="text" id="r-nome" name="nome" required placeholder="Es. Maria Bianchi"
+                               class="w-full bg-abisso/90 border border-sabbia/20 rounded-xl px-5 py-3.5 text-sabbia placeholder-sabbia/60 focus:outline-none focus:border-corallo transition text-sm">
+                    </div>
+                    <div>
+                        <label for="r-email" class="block text-xs font-semibold text-sabbia uppercase tracking-wider mb-2">Email Istituzionale *</label>
+                        <input type="email" id="r-email" name="email" required placeholder="nome@universita.it"
+                               class="w-full bg-abisso/90 border border-sabbia/20 rounded-xl px-5 py-3.5 text-sabbia placeholder-sabbia/60 focus:outline-none focus:border-corallo transition text-sm">
+                    </div>
+                </div>
+                <div>
+                    <label for="r-istituzione" class="block text-xs font-semibold text-sabbia uppercase tracking-wider mb-2">Istituzione / Ente di Ricerca *</label>
+                    <input type="text" id="r-istituzione" name="istituzione" required placeholder="Es. Università del Salento, Dipartimento di Storia"
+                           class="w-full bg-abisso/90 border border-sabbia/20 rounded-xl px-5 py-3.5 text-sabbia placeholder-sabbia/60 focus:outline-none focus:border-corallo transition text-sm">
+                </div>
+                <div>
+                    <label for="r-oggetto" class="block text-xs font-semibold text-sabbia uppercase tracking-wider mb-2">Oggetto della Ricerca *</label>
+                    <textarea id="r-oggetto" name="oggetto" rows="4" required placeholder="Descrivi il tema, le fonti che intendi consultare (es. Libri Rossi, fascicoli, cartografia) e il periodo di studio..."
+                              class="w-full bg-abisso/90 border border-sabbia/20 rounded-xl px-5 py-3.5 text-sabbia placeholder-sabbia/60 focus:outline-none focus:border-corallo transition text-sm"></textarea>
+                </div>
+                <div class="flex items-start space-x-3 text-xs text-sabbia/85 font-light">
+                    <input type="checkbox" id="r-privacy" name="privacy" required class="mt-0.5 accent-corallo">
+                    <label for="r-privacy">
+                        Dichiaro di aver letto l'<a href="privacy.html" class="text-corallo underline" target="_blank">Informativa sulla Privacy</a> e acconsento al trattamento dei dati personali.
+                    </label>
+                </div>
+                <button type="submit" class="w-full bg-corallo hover:bg-ruggine text-white font-bold py-4 rounded-xl shadow-lg transition duration-200">
+                    Invia la Richiesta di Accesso
+                </button>
+            </form>
+
+            <div id="ricercatori-ok" class="hidden mt-8 bg-abisso/60 border border-sabbia/15 rounded-2xl p-8 text-center" role="status">
+                <svg class="w-12 h-12 mx-auto text-corallo mb-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                    <path d="M22 4 12 14.01l-3-3"/>
+                </svg>
+                <h3 class="font-serif text-2xl font-bold text-sabbia mb-2">Richiesta ricevuta!</h3>
+                <p class="text-sabbia/85 text-sm font-light max-w-md mx-auto">
+                    La tua richiesta di accesso alla ricerca è stata registrata. Il comitato scientifico ti risponderà con le modalità di consultazione dell'archivio.
+                </p>
+                <p class="text-xs text-sabbia/70 font-light mt-4">
+                    In questa fase dimostrativa la richiesta non viene inviata a un server: al momento del lancio ufficiale verrà collegata alla casella di raccolta del progetto.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/js/layout.js"></script>
+    <script src="assets/js/form-demo.js"></script>
+</body>
+</html>

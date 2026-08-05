@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .stato-badge {
+        @apply inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs font-bold tracking-wide;
+    }
+    .stato-badge::before {
+        content: "";
+        @apply inline-block h-1.5 w-1.5 rounded-full;
+    }
+    .stato-corso {
+        @apply stato-badge border-corallo/40 bg-corallo/15 text-corallo;
+    }
+    .stato-corso::before {
+        @apply bg-corallo;
+    }
+    .stato-pronto {
+        @apply stato-badge border-sabbia/30 bg-sabbia/10 text-sabbia;
+    }
+    .stato-pronto::before {
+        @apply bg-sabbia;
+    }
+    .stato-piano {
+        @apply stato-badge border-pietra/30 bg-pietra/10 text-pietra;
+    }
+    .stato-piano::before {
+        @apply bg-pietra;
+    }
+
+    .filtro-chip {
+        @apply border border-sabbia/20 text-sabbia/80 text-xs font-semibold px-4 py-2 rounded-full transition duration-200 hover:border-corallo/50 hover:text-sabbia;
+    }
+    .filtro-chip.filtro-attivo {
+        @apply bg-corallo border-corallo text-white;
+    }
+}

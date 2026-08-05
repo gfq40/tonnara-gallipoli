@@ -1,0 +1,148 @@
+{
+  "schema": "catalogo-tonnara-gallipoli",
+  "version": "1.0",
+  "museo": "Museo Multimediale della Tonnara di Gallipoli",
+  "url": "https://www.tonnaradigallipoli.it/",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "manuscript": {
+    "shelfMark": "W.658",
+    "title": "Kitab-ı Bahriye (Book on Navigation)",
+    "author": "Piri Reis",
+    "repository": "The Walters Art Museum, Baltimore",
+    "url": "https://art.thewalters.org/object/W.658/",
+    "viewer": "https://manuscripts.thewalters.org/viewer.php?id=W.658",
+    "license": "CC0"
+  },
+  "items": [
+    {
+      "id": "pr-206b-lecce-gallipoli",
+      "type": "map",
+      "folio": "f. 206b",
+      "shelfMark": "W.658.206B",
+      "file": "assets/img/mappe/piri_reis/piri-reis-lecce-gallipoli.webp",
+      "url": "https://art.thewalters.org/object/W.658.206B/",
+      "title": { "it": "La Costa da Lecce a Gallipoli", "en": "The Coast from Lecce to Gallipoli" },
+      "description": {
+        "it": "La costa ionica del Salento da Lecce fino a Gallipoli, con il golfo che ospitava la tonnara e la calata delle sue reti.",
+        "en": "The Ionian coast of the Salento from Lecce to Gallipoli, with the gulf that hosted the tuna fishery and the lowering of its nets."
+      }
+    },
+    {
+      "id": "pr-208b-taranto",
+      "type": "map",
+      "folio": "f. 208b",
+      "shelfMark": "W.658.208B",
+      "file": "assets/img/mappe/piri_reis/piri-reis-taranto.webp",
+      "url": "https://art.thewalters.org/object/W.658.208B/",
+      "title": { "it": "La Città di Taranto", "en": "The City of Taranto" },
+      "description": {
+        "it": "L'estremità settentrionale del golfo di Taranto, a nord della costa di Gallipoli.",
+        "en": "The northern end of the Gulf of Taranto, north of the Gallipoli coast."
+      }
+    },
+    {
+      "id": "pr-208a-adriatico",
+      "type": "map",
+      "folio": "f. 208a",
+      "shelfMark": "W.658.208A",
+      "file": "assets/img/mappe/piri_reis/piri-reis-adriatico.webp",
+      "url": "https://art.thewalters.org/object/W.658.208A/",
+      "title": { "it": "Coste e Isole dell'Adriatico", "en": "Adriatic Coast and Islands" },
+      "description": {
+        "it": "La costa adriatica e le sue isole: il versante opposto della penisola salentina.",
+        "en": "The Adriatic coast and its islands: the opposite side of the Salento peninsula."
+      }
+    },
+    {
+      "id": "pr-205a-brindisi",
+      "type": "map",
+      "folio": "f. 205a",
+      "shelfMark": "W.658.205A",
+      "file": "assets/img/mappe/piri_reis/piri-reis-brindisi.webp",
+      "url": "https://art.thewalters.org/object/W.658.205A/",
+      "title": { "it": "Il Porto di Brindisi", "en": "The Port of Brindisi" },
+      "description": {
+        "it": "Il porto di Brindisi (Parindis), storico scalo dell'Adriatico a nord di Gallipoli.",
+        "en": "The port of Brindisi (Parindis), historic Adriatic harbour north of Gallipoli."
+      }
+    },
+    {
+      "id": "pr-210a-calabria-rossano",
+      "type": "map",
+      "folio": "f. 210a",
+      "shelfMark": "W.658.210A",
+      "file": "assets/img/mappe/piri_reis/piri-reis-calabria-rossano.webp",
+      "url": "https://art.thewalters.org/object/W.658.210A/",
+      "title": { "it": "La Costa Orientale della Calabria (Rossano)", "en": "The Eastern Coast of Calabria (Rossano)" },
+      "description": {
+        "it": "La costa orientale della Calabria con Rossano, lungo le rotte ioniche dei tonni.",
+        "en": "The eastern coast of Calabria with Rossano, along the Ionian tuna migration routes."
+      }
+    },
+    {
+      "id": "pr-211b-crotone-catanzaro",
+      "type": "map",
+      "folio": "f. 211b",
+      "shelfMark": "W.658.211B",
+      "file": "assets/img/mappe/piri_reis/piri-reis-calabria-crotone-catanzaro.webp",
+      "url": "https://art.thewalters.org/object/W.658.211B/",
+      "title": { "it": "Crotone e Catanzaro", "en": "Crotone and Catanzaro" },
+      "description": {
+        "it": "Le città di Crotone e Catanzaro sul golfo di Squillace, sulla rotta ionica.",
+        "en": "The cities of Crotone and Catanzaro on the Gulf of Squillace, on the Ionian route."
+      }
+    },
+    {
+      "id": "pr-212b-catanzaro-squillace",
+      "type": "map",
+      "folio": "f. 212b",
+      "shelfMark": "W.658.212B",
+      "file": "assets/img/mappe/piri_reis/piri-reis-calabria-catanzaro-squillace.webp",
+      "url": "https://art.thewalters.org/object/W.658.212B/",
+      "title": { "it": "Da Catanzaro a Squillace", "en": "From Catanzaro to Squillace" },
+      "description": {
+        "it": "La costa da Catanzaro a Squillace, all'imbocco del golfo omonimo.",
+        "en": "The coast from Catanzaro to Squillace, at the mouth of the gulf of the same name."
+      }
+    },
+    {
+      "id": "pr-213b-stretto-messina",
+      "type": "map",
+      "folio": "f. 213b",
+      "shelfMark": "W.658.213B",
+      "file": "assets/img/mappe/piri_reis/piri-reis-calabria-stretto-messina.webp",
+      "url": "https://art.thewalters.org/object/W.658.213B/",
+      "title": { "it": "La Calabria Meridionale e lo Stretto di Messina", "en": "Southern Calabria and the Strait of Messina" },
+      "description": {
+        "it": "La Calabria meridionale e lo Stretto di Messina, porta d'accesso ai tonni verso lo Ionio.",
+        "en": "Southern Calabria and the Strait of Messina, the gateway for tuna entering the Ionian Sea."
+      }
+    },
+    {
+      "id": "pr-63b-mediterraneo-orientale",
+      "type": "map",
+      "folio": "f. 63b",
+      "shelfMark": "W.658.63B",
+      "file": "assets/img/mappe/piri_reis/piri-reis-mediterraneo-orientale.webp",
+      "url": "https://art.thewalters.org/object/W.658.63B/",
+      "title": { "it": "Mediterraneo Orientale, Egeo e Mar Nero", "en": "Eastern Mediterranean, Aegean and Black Sea" },
+      "description": {
+        "it": "Il Mediterraneo orientale, l'Egeo e il Mar Nero: il bacino delle grandi rotte del tonno rosso.",
+        "en": "The eastern Mediterranean, the Aegean and the Black Sea: the basin of the great bluefin tuna routes."
+      }
+    },
+    {
+      "id": "pr-64a-europa-nordafrica",
+      "type": "map",
+      "folio": "f. 64a",
+      "shelfMark": "W.658.64A",
+      "file": "assets/img/mappe/piri_reis/piri-reis-europa-nordafrica.webp",
+      "url": "https://art.thewalters.org/object/W.658.64A/",
+      "title": { "it": "Europa Occidentale e Nord Africa", "en": "Western Europe and North Africa" },
+      "description": {
+        "it": "Le coste dell'Europa occidentale e del Nord Africa: l'intero orizzonte mediterraneo della navigazione.",
+        "en": "The coasts of western Europe and North Africa: the whole Mediterranean horizon of navigation."
+      }
+    }
+  ]
+}

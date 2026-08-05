@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.tonnaradigallipoli.it/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/index-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.tonnaradigallipoli.it/index-en.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/index-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.tonnaradigallipoli.it/storia.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/storia.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/storia-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/storia.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.tonnaradigallipoli.it/storia-en.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/storia.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/storia-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/storia.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonnaradigallipoli.it/tonno.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/tonno.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/tonno-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/tonno.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.tonnaradigallipoli.it/tonno-en.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/tonno.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/tonno-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/tonno.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonnaradigallipoli.it/museo.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/museo.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/museo-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/museo.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.tonnaradigallipoli.it/museo-en.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/museo.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/museo-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/museo.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonnaradigallipoli.it/archivio.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/archivio.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/archivio-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/archivio.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonnaradigallipoli.it/archivio-en.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/archivio.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/archivio-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/archivio.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.tonnaradigallipoli.it/cronologia.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/cronologia.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/cronologia-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/cronologia.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonnaradigallipoli.it/cronologia-en.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/cronologia.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/cronologia-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/cronologia.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.tonnaradigallipoli.it/glossario.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/glossario.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/glossario-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/glossario.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.tonnaradigallipoli.it/glossario-en.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/glossario.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/glossario-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/glossario.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.tonnaradigallipoli.it/fonti.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/fonti.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/fonti-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/fonti.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.tonnaradigallipoli.it/fonti-en.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/fonti.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/fonti-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/fonti.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.tonnaradigallipoli.it/citare.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/citare.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/citare-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/citare.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.tonnaradigallipoli.it/citare-en.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/citare.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/citare-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/citare.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.tonnaradigallipoli.it/hall-of-fame.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/hall-of-fame.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/hall-of-fame-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/hall-of-fame.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonnaradigallipoli.it/hall-of-fame-en.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/hall-of-fame.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/hall-of-fame-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/hall-of-fame.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.tonnaradigallipoli.it/stampa.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/stampa.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/stampa-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/stampa.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.tonnaradigallipoli.it/stampa-en.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/stampa.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/stampa-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/stampa.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.tonnaradigallipoli.it/partecipa.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/partecipa.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/partecipa-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/partecipa.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.tonnaradigallipoli.it/partecipa-en.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/partecipa.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/partecipa-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/partecipa.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.tonnaradigallipoli.it/crediti.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/crediti.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/crediti-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/crediti.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.tonnaradigallipoli.it/crediti-en.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/crediti.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/crediti-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/crediti.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.tonnaradigallipoli.it/ringraziamenti.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/ringraziamenti.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/ringraziamenti-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/ringraziamenti.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.tonnaradigallipoli.it/ringraziamenti-en.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/ringraziamenti.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/ringraziamenti-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/ringraziamenti.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.tonnaradigallipoli.it/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/privacy-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/privacy.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.tonnaradigallipoli.it/privacy-en.html</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.tonnaradigallipoli.it/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tonnaradigallipoli.it/privacy-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tonnaradigallipoli.it/privacy.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+</urlset>
