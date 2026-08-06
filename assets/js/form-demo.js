@@ -54,10 +54,28 @@
         });
     }
 
+    function initConcorso() {
+        var form = document.getElementById('form-concorso');
+        var ok = document.getElementById('concorso-ok');
+        if (!form || !ok) return;
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            var web = document.getElementById('campo-web-c');
+            if (web && web.value) return;
+            if (!form.checkValidity()) {
+                form.reportValidity();
+                return;
+            }
+            form.classList.add('hidden');
+            ok.classList.remove('hidden');
+        });
+    }
+
     function init() {
         initNewsletter();
         initSegnalazione();
         initRicercatori();
+        initConcorso();
     }
 
     if (document.readyState === 'loading') {

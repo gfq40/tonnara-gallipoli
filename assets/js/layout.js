@@ -14,6 +14,7 @@
         { href: 'index.html', hrefEn: 'index-en.html', label: 'Home', labelEn: 'Home', page: 'index.html' },
         { href: 'storia.html', hrefEn: 'storia-en.html', label: 'La Storia', labelEn: 'History', page: 'storia.html' },
         { href: 'tonno.html', hrefEn: 'tonno-en.html', label: 'Il Tonno Rosso', labelEn: 'The Bluefin Tuna', page: 'tonno.html' },
+        { href: 'ecologia.html', hrefEn: 'ecologia-en.html', label: 'Ecologia', labelEn: 'Ecology', page: 'ecologia.html' },
         { href: 'museo.html', hrefEn: 'museo-en.html', label: 'Il Museo', labelEn: 'The Museum', page: 'museo.html' },
         { href: 'archivio.html', hrefEn: 'archivio-en.html', label: 'Archivio', labelEn: 'Archive', page: 'archivio.html' },
         { href: 'cronologia.html', hrefEn: 'cronologia-en.html', label: 'Cronologia', labelEn: 'Timeline', page: 'cronologia.html' },
@@ -55,6 +56,7 @@
             { href: 'cronologia.html', hrefEn: 'cronologia-en.html', label: 'Cronologia', labelEn: 'Timeline' },
             { href: 'glossario.html', hrefEn: 'glossario-en.html', label: 'Glossario', labelEn: 'Glossary' },
             { href: 'fonti.html', hrefEn: 'fonti-en.html', label: 'Fonti & Bibliografia', labelEn: 'Sources & Bibliography' },
+            { href: 'ecologia.html', hrefEn: 'ecologia-en.html', label: 'Ecologia', labelEn: 'Ecology' },
             { href: 'citare.html', hrefEn: 'citare-en.html', label: 'Come Citare', labelEn: 'How to Cite' },
             { href: 'privacy.html', hrefEn: 'privacy-en.html', label: 'Privacy Policy', labelEn: 'Privacy Policy' },
             { href: 'crediti.html', hrefEn: 'crediti-en.html', label: 'Crediti & Partner', labelEn: 'Credits & Partners' },
@@ -221,7 +223,7 @@
 
         var types = {
             'index.html': 'WebSite', 'storia.html': 'AboutPage', 'tonno.html': 'AboutPage',
-            'museo.html': 'AboutPage', 'archivio.html': 'CollectionPage', 'hall-of-fame.html': 'CollectionPage',
+            'ecologia.html': 'AboutPage', 'museo.html': 'AboutPage', 'archivio.html': 'CollectionPage', 'hall-of-fame.html': 'CollectionPage',
             'cronologia.html': 'Article', 'glossario.html': 'ItemList', 'fonti.html': 'AboutPage',
             'citare.html': 'AboutPage', 'stampa.html': 'AboutPage', 'partecipa.html': 'ContactPage',
             'crediti.html': 'AboutPage', 'ringraziamenti.html': 'AboutPage', 'privacy.html': 'WebPage',
