@@ -13,12 +13,8 @@
     var NAV_ITEMS = [
         { href: 'index.html', hrefEn: 'index-en.html', label: 'Home', labelEn: 'Home', page: 'index.html' },
         { href: 'storia.html', hrefEn: 'storia-en.html', label: 'La Storia', labelEn: 'History', page: 'storia.html' },
-        { href: 'tonno.html', hrefEn: 'tonno-en.html', label: 'Il Tonno Rosso', labelEn: 'The Bluefin Tuna', page: 'tonno.html' },
-        { href: 'ecologia.html', hrefEn: 'ecologia-en.html', label: 'Ecologia', labelEn: 'Ecology', page: 'ecologia.html' },
-        { href: 'museo.html', hrefEn: 'museo-en.html', label: 'Il Museo', labelEn: 'The Museum', page: 'museo.html' },
         { href: 'archivio.html', hrefEn: 'archivio-en.html', label: 'Archivio', labelEn: 'Archive', page: 'archivio.html' },
-        { href: 'cronologia.html', hrefEn: 'cronologia-en.html', label: 'Cronologia', labelEn: 'Timeline', page: 'cronologia.html' },
-        { href: 'hall-of-fame.html', hrefEn: 'hall-of-fame-en.html', label: 'Hall of Fame', labelEn: 'Hall of Fame', page: 'hall-of-fame.html' }
+        { href: 'progetto.html', hrefEn: 'progetto-en.html', label: 'Il progetto', labelEn: 'The project', page: 'progetto.html' }
     ];
 
     function itemHref(item) {
@@ -50,19 +46,14 @@
         switchToIt: isEnglish ? 'Switch to Italian' : "Passa all'italiano",
         switchToEn: isEnglish ? 'Switch to English' : "Passa all'inglese",
         patronage: isEnglish ? 'With the patronage and collaboration of' : 'Con il patrocinio e la collaborazione di',
-        footerTagline: isEnglish ? 'A cultural heritage, historical memory and eco-museum project.' : 'Un progetto di valorizzazione culturale, memoria storica ed ecomuseo.',
+        footerTagline: isEnglish ? 'A cultural heritage, historical memory and eco-museum project.' : 'La memoria della tonnara di Gallipoli.',
         rights: isEnglish ? 'All rights reserved.' : 'Tutti i diritti riservati.',
         footerLinks: [
-            { href: 'cronologia.html', hrefEn: 'cronologia-en.html', label: 'Cronologia', labelEn: 'Timeline' },
-            { href: 'glossario.html', hrefEn: 'glossario-en.html', label: 'Glossario', labelEn: 'Glossary' },
-            { href: 'fonti.html', hrefEn: 'fonti-en.html', label: 'Fonti & Bibliografia', labelEn: 'Sources & Bibliography' },
-            { href: 'ecologia.html', hrefEn: 'ecologia-en.html', label: 'Ecologia', labelEn: 'Ecology' },
-            { href: 'citare.html', hrefEn: 'citare-en.html', label: 'Come Citare', labelEn: 'How to Cite' },
-            { href: 'privacy.html', hrefEn: 'privacy-en.html', label: 'Privacy Policy', labelEn: 'Privacy Policy' },
-            { href: 'crediti.html', hrefEn: 'crediti-en.html', label: 'Crediti & Partner', labelEn: 'Credits & Partners' },
-            { href: 'ringraziamenti.html', hrefEn: 'ringraziamenti-en.html', label: 'Ringraziamenti', labelEn: 'Acknowledgements' },
-            { href: 'stampa.html', hrefEn: 'stampa-en.html', label: 'Area Stampa', labelEn: 'Press Area' },
-            { href: 'partecipa.html', hrefEn: 'partecipa-en.html', label: 'Contatti', labelEn: 'Contact' }
+            { href: 'storia.html', hrefEn: 'storia-en.html', label: 'La Storia', labelEn: 'History' },
+            { href: 'archivio.html', hrefEn: 'archivio-en.html', label: 'Archivio', labelEn: 'Archive' },
+            { href: 'partecipa.html', hrefEn: 'partecipa-en.html', label: 'Partecipa', labelEn: 'Get involved' },
+            { href: 'progetto.html', hrefEn: 'progetto-en.html', label: 'Il progetto', labelEn: 'The project' },
+            { href: 'privacy.html', hrefEn: 'privacy-en.html', label: 'Privacy', labelEn: 'Privacy' }
         ]
     };
 
@@ -97,8 +88,6 @@
             '</a>',
             '<nav class="hidden lg:flex items-center space-x-6 text-sm font-medium" aria-label="Menu Principale">',
             desktopNav(),
-            '<span class="inline-flex items-center border border-sabbia/20 rounded-full px-3 py-1 text-xs font-bold text-corallo bg-abisso" title="' + T.languageBadgeTitle + '">' + (isEnglish ? 'EN' : 'IT') + '</span>',
-            '<a href="' + langHref(!isEnglish) + '" class="text-sabbia/80 hover:text-corallo transition">' + (isEnglish ? 'IT' : 'EN') + '</a>',
             '<a href="' + (isEnglish ? 'partecipa-en.html' : 'partecipa.html') + '" class="bg-corallo hover:bg-ruggine text-white px-4 py-2 rounded-lg font-semibold transition duration-200 shadow-md">' + T.participate + '</a>',
             '</nav>',
             '<button id="menu-btn" class="lg:hidden text-sabbia p-2 focus:outline-none focus:ring-2 focus:ring-corallo rounded-lg" aria-label="' + T.menuOpen + '" aria-expanded="false" aria-controls="mobile-menu">',
@@ -108,13 +97,6 @@
             '</div>',
             '<div id="mobile-menu" class="hidden lg:hidden bg-oltremare border-b border-sabbia/10 px-4 pt-2 pb-6 space-y-3">',
             mobileNav(),
-            '<div class="flex items-center justify-between py-2 border-t border-sabbia/10 mt-2">',
-            '<span class="text-xs text-sabbia/70">' + T.languageLabel + '</span>',
-            '<div class="flex items-center gap-2">',
-            '<a href="' + langHref(false) + '" class="text-xs font-bold px-2.5 py-1 rounded border ' + (isEnglish ? 'border-sabbia/20 text-sabbia/80' : 'bg-corallo border-corallo text-white') + '" aria-label="' + T.switchToIt + '">IT</a>',
-            '<a href="' + langHref(true) + '" class="text-xs font-bold px-2.5 py-1 rounded border ' + (isEnglish ? 'bg-corallo border-corallo text-white' : 'border-sabbia/20 text-sabbia/80') + '" aria-label="' + T.switchToEn + '">EN</a>',
-            '</div>',
-            '</div>',
             '<a href="' + (isEnglish ? 'partecipa-en.html' : 'partecipa.html') + '" class="block text-center bg-corallo hover:bg-ruggine text-white py-3 rounded-lg font-bold text-base mt-4 shadow-lg">' + T.participateMobile + '</a>',
             '</div>',
             '</header>'
@@ -161,7 +143,7 @@
 
     /* Iniezione layout */
     document.body.insertAdjacentHTML('afterbegin', headerHTML());
-    document.body.insertAdjacentHTML('beforeend', partnerBannerHTML() + footerHTML());
+    document.body.insertAdjacentHTML('beforeend', footerHTML());
 
     /* Menu mobile */
     var menuBtn = document.getElementById('menu-btn');

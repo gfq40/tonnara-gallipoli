@@ -3,508 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Archivio &amp; Galleria - Tonnara di Gallipoli</title>
-    <meta name="description" content="L'archivio digitale della Tonnara di Gallipoli in costruzione: fototeca, mappe d'epoca, diplomi e cialome dei tonnarotti.">
-    <meta property="og:title" content="Archivio &amp; Galleria - Tonnara di Gallipoli">
-    <meta property="og:description" content="Un'immersione visiva e sonora tra i volti dei tonnarotti, le carte d'archivio e i canti d'epoca della Tonnara di Gallipoli.">
-    <meta property="og:image" content="https://www.tonnaragallipoli.it/assets/img/hero-mare-1920.jpg">
+    <title>Archivio - Tonnara di Gallipoli</title>
+    <meta name="description" content="La collezione fotografica Tricarico e i documenti sulla tonnara di Gallipoli.">
+    <meta property="og:title" content="Archivio - Tonnara di Gallipoli">
+    <meta property="og:description" content="La collezione fotografica Tricarico e i documenti sulla tonnara di Gallipoli.">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="it_IT">
     <link rel="canonical" href="https://www.tonnaragallipoli.it/archivio.html">
-    <link rel="alternate" hreflang="it" href="https://www.tonnaragallipoli.it/archivio.html">
-    <link rel="alternate" hreflang="en" href="https://www.tonnaragallipoli.it/archivio-en.html">
-    <link rel="alternate" hreflang="x-default" href="https://www.tonnaragallipoli.it/archivio.html">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚓</text></svg>">
     <link rel="stylesheet" href="assets/css/tailwind.css">
+    <link rel="stylesheet" href="assets/css/prova.css">
 </head>
 <body class="bg-abisso text-sabbia font-sans antialiased flex flex-col min-h-screen">
 
-    <!-- PAGE HEADER -->
-    <section id="contenuto" class="relative pt-36 pb-16 overflow-hidden bg-gradient-to-b from-oltremare/40 via-abisso to-abisso border-b border-sabbia/10">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <span class="inline-block py-1 px-3 rounded-full bg-corallo/20 border border-corallo/30 text-corallo text-xs sm:text-sm font-semibold tracking-widest uppercase mb-4">
-                Collezione Digitale &amp; Media
-            </span>
-            <h1 class="font-serif text-4xl sm:text-6xl font-bold text-sabbia leading-tight mb-6">
-                Archivio &amp; Galleria Fotografica
-            </h1>
-            <p class="text-lg text-sabbia/85 max-w-2xl mx-auto font-light leading-relaxed">
-                Un'immersione visiva e sonora tra i volti dei tonnarotti, le carte d'archivio antiche, le mappe della costa e i canti d'epoca.
-            </p>
-            <span class="stato-corso mt-6">Digitalizzazione in corso</span>
-            <p class="text-xs text-sabbia/80 font-light mt-3 max-w-xl mx-auto">
-                Le immagini d'epoca mostrate provengono da archivi storici in pubblico dominio (Wikimedia Commons e Archive.org). Le fotografie e i documenti autentici della tonnara di Gallipoli verranno pubblicati mano a mano che la digitalizzazione dell'archivio procederà.
+    <section id="contenuto" class="pt-32 pb-12 bg-gradient-to-b from-oltremare/40 via-abisso to-abisso border-b border-sabbia/10">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h1 class="font-serif text-4xl sm:text-5xl font-bold text-sabbia leading-tight mb-6">Archivio</h1>
+            <p class="text-lg text-sabbia/85 font-light leading-relaxed">
+                Le fotografie della collezione Tricarico e i documenti che parlano della tonnara di Gallipoli. Ogni immagine dice da dove viene, e quelle di altre tonnare sono indicate come tali.
             </p>
         </div>
     </section>
 
-    <!-- FILTRI ARCHIVIO -->
-    <section class="pt-12 pb-2">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-wrap items-center gap-2" role="group" aria-label="Filtra per tipologia">
-                <button class="filtro-attivo filtro-chip" data-tipo="all" aria-pressed="true">Tutti</button>
-                <button class="filtro-chip" data-tipo="photos" aria-pressed="false">Fotografie</button>
-                <button class="filtro-chip" data-tipo="documents" aria-pressed="false">Documenti &amp; Mappe</button>
-                <button class="filtro-chip" data-tipo="audio" aria-pressed="false">Audioteca</button>
-            </div>
-        </div>
-    </section>
+    <main class="flex-1">
 
-    <!-- FOTOTECA -->
-    <section class="py-10 border-b border-sabbia/5" data-tipo="photos" id="galleria">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col md:flex-row items-start md:items-end justify-between mb-12">
-                <div>
-                    <span class="text-corallo font-semibold text-xs tracking-widest uppercase">Fototeca</span>
-                    <h2 class="font-serif text-3xl sm:text-4xl font-bold text-sabbia mt-1">Sguardi e Lavoro di Mare</h2>
-                </div>
-                <p class="text-sabbia/80 text-sm max-w-md mt-3 md:mt-0 font-light">
-                    Clicca su un'immagine per ingrandirla a tutto schermo. Le fotografie d'epoca provengono da archivi in pubblico dominio; le immagini autentiche della tonnara di Gallipoli saranno aggiunte al termine della digitalizzazione.
+        <!-- COLLEZIONE TRICARICO -->
+        <section id="galleria" class="py-14">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-sabbia mb-3">La collezione Tricarico</h2>
+                <p class="text-sabbia/80 font-light max-w-2xl mb-8">
+                    Fotografie, cartoline e documenti raccolti da Luigi Tricarico. <span class="dv">quante foto, di che periodo, come sono state raccolte</span>
                 </p>
-            </div>
-
-            <div class="bg-abisso/60 border border-sabbia/10 rounded-xl px-5 py-3 mb-8 text-xs text-sabbia/70 font-light flex flex-wrap gap-x-6 gap-y-2">
-                <span><span class="text-corallo font-semibold">Provenienza:</span> Eugenio Interguglielmi (1904) — fondo fotografico del museo.</span>
-                <span><span class="text-corallo font-semibold">Licenza:</span> dominio pubblico (CC0).</span>
-                <span><span class="text-corallo font-semibold">Conservazione:</span> copie digitali WebP, originali in archivio.</span>
-            </div>
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div onclick="openLightbox('assets/img/archivio/tonnarotti-reti.webp', 'La Pesca del Tonno (1904)', 'Foto d\'epoca del 1904: la pesca del tonno con le reti in una tonnara siciliana. Lo stesso rito, gli stessi gesti dei tonnarotti di Gallipoli. Fotografia di Eugenio Interguglielmi — dominio pubblico (CC0).')"
-                     role="button" tabindex="0" aria-label="Apri la foto: La Pesca del Tonno (1904)"
-                     onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.click();}"
-                     class="group bg-oltremare/30 border border-sabbia/10 rounded-2xl overflow-hidden cursor-pointer hover:border-corallo/50 transition duration-300">
-                    <div class="h-64 overflow-hidden relative">
-                        <img src="assets/img/archivio/tonnarotti-reti.webp" loading="lazy" alt="Foto d'epoca del 1904: la pesca del tonno con le reti" class="w-full h-full object-cover filter grayscale contrast-125 group-hover:scale-105 group-hover:grayscale-0 transition duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-abisso via-transparent to-transparent opacity-80"></div>
-                        <span class="absolute top-3 left-3 bg-abisso/80 text-sabbia text-xs px-3 py-1 rounded-full border border-sabbia/10">Foto d'epoca • 1904</span>
-                    </div>
-                    <div class="p-5">
-                        <h3 class="font-serif text-lg font-bold text-sabbia group-hover:text-corallo transition">La Pesca del Tonno (1904)</h3>
-                        <p class="text-sabbia/80 text-xs mt-1 font-light line-clamp-2">I tonnarotti all'opera tra le reti, in una fotografia di Eugenio Interguglielmi (1904).</p>
-                    </div>
+                <div class="segnaposto mb-8" style="min-height:160px">
+                    Qui la galleria delle foto Tricarico (oltre cento, da ritrovare e caricare).<br>
+                    Per ogni foto: un titolo vero e, se si sa, luogo, anno e persone ritratte.
                 </div>
-
-                <div onclick="openLightbox('assets/img/archivio/mattanza-1904.jpg', 'La Mattanza (1904)', 'Foto d\'epoca del 1904 di Eugenio Interguglielmi: il rito conclusivo della mattanza, quando i tonni vengono issati nella camera della morte. Dominio pubblico (CC0).')"
-                     role="button" tabindex="0" aria-label="Apri la foto: La Mattanza (1904)"
-                     onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.click();}"
-                     class="group bg-oltremare/30 border border-sabbia/10 rounded-2xl overflow-hidden cursor-pointer hover:border-corallo/50 transition duration-300">
-                    <div class="h-64 overflow-hidden relative">
-                        <img src="assets/img/archivio/mattanza-1904.jpg" loading="lazy" alt="Foto d'epoca del 1904: la mattanza del tonno" class="w-full h-full object-cover filter sepia group-hover:scale-105 group-hover:sepia-0 transition duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-abisso via-transparent to-transparent opacity-80"></div>
-                        <span class="absolute top-3 left-3 bg-abisso/80 text-sabbia text-xs px-3 py-1 rounded-full border border-sabbia/10">Foto d'epoca • 1904</span>
-                    </div>
-                    <div class="p-5">
-                        <h3 class="font-serif text-lg font-bold text-sabbia group-hover:text-corallo transition">La Mattanza (1904)</h3>
-                        <p class="text-sabbia/80 text-xs mt-1 font-light line-clamp-2">Il momento culminante del rito della pesca, fotografato nel 1904 da Interguglielmi.</p>
-                    </div>
-                </div>
-
-                <div onclick="openLightbox('assets/img/archivio/vascelli-mare.jpg', 'I Vascelli all\'Opera (1909)', 'Incisione d\'epoca del 1909 tratta da "Fish Stories" di Charles F. Holder: i vascelli e la manovra delle reti della tonnara. Pubblico dominio.')"
-                     role="button" tabindex="0" aria-label="Apri la foto: I Vascelli all'Opera (1909)"
-                     onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.click();}"
-                     class="group bg-oltremare/30 border border-sabbia/10 rounded-2xl overflow-hidden cursor-pointer hover:border-corallo/50 transition duration-300">
-                    <div class="h-64 overflow-hidden relative">
-                        <img src="assets/img/archivio/vascelli-mare.jpg" loading="lazy" alt="Incisione d'epoca del 1909: vascelli da pesca tra le reti" class="w-full h-full object-cover filter grayscale contrast-110 group-hover:scale-105 group-hover:grayscale-0 transition duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-abisso via-transparent to-transparent opacity-80"></div>
-                        <span class="absolute top-3 left-3 bg-abisso/80 text-sabbia text-xs px-3 py-1 rounded-full border border-sabbia/10">Incisione • 1909</span>
-                    </div>
-                    <div class="p-5">
-                        <h3 class="font-serif text-lg font-bold text-sabbia group-hover:text-corallo transition">I Vascelli all'Opera (1909)</h3>
-                        <p class="text-sabbia/80 text-xs mt-1 font-light line-clamp-2">Incisione del 1909 (Charles F. Holder): gli scafi da lavoro e la manovra delle reti.</p>
+                <div>
+                    <div id="tricarico-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+                    <div class="mt-10 text-center">
+                        <button id="load-more-tricarico" type="button" class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-corallo text-white text-sm font-semibold shadow-lg hover:bg-ruggine transition">Carica altre foto</button>
                     </div>
                 </div>
             </div>
-            <div class="mt-16">
-                <div class="flex flex-col sm:flex-row items-start sm:items-end justify-between gap-4 mb-8">
-                    <div>
-                        <span class="text-corallo font-semibold text-xs tracking-widest uppercase">Collezione Tricarico</span>
-                        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-sabbia mt-1">Galleria Fotografica Tricarico</h2>
-                    </div>
-                    <p class="text-sabbia/80 text-sm max-w-xl font-light">
-                        Foto storiche e documenti della collezione Tricarico, digitalizzati per il patrimonio visivo della tonnara.
-                    </p>
+        </section>
+
+        <!-- DOCUMENTI SU GALLIPOLI -->
+        <section id="documenti" class="py-14 bg-oltremare/20 border-t border-b border-sabbia/10">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-sabbia mb-8">Documenti su Gallipoli</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                    <button type="button" class="group text-left bg-abisso/60 border border-sabbia/10 hover:border-corallo/50 rounded-2xl overflow-hidden transition"
+                            onclick="openLightbox('assets/img/archivio/ravenna-1836-p106.webp', 'Ravenna, Memorie istoriche (1836), p. 106', 'La pagina in cui Bartolomeo Ravenna scrive che Gallipoli è la sola città marittima della provincia ad avere la tonnara. Pubblico dominio.')">
+                        <div class="h-56 overflow-hidden"><img src="assets/img/archivio/ravenna-1836-p106.webp" loading="lazy" alt="Pagina 106 delle Memorie istoriche della città di Gallipoli di Bartolomeo Ravenna" class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-500"></div>
+                        <div class="p-5">
+                            <h3 class="font-serif text-lg font-bold text-sabbia group-hover:text-corallo transition">B. Ravenna, 1836</h3>
+                            <p class="text-sabbia/75 text-xs mt-1"><em>Memorie istoriche della città di Gallipoli</em>, p. 106. Pubblico dominio.</p>
+                        </div>
+                    </button>
+
+                    <button type="button" class="group text-left bg-abisso/60 border border-sabbia/10 hover:border-corallo/50 rounded-2xl overflow-hidden transition"
+                            onclick="openLightbox('assets/img/mappe/planimetria-golfo-xviii.webp', 'Gallipoli nel Kitab-ı Bahriye di Piri Reis', 'La città e la costa tra Gallipoli e Nardò nel portolano del cartografo ottomano Piri Reis. Walters Art Museum, Baltimora, ms. W.658. Pubblico dominio.')">
+                        <div class="h-56 overflow-hidden"><img src="assets/img/mappe/planimetria-golfo-xviii.webp" loading="lazy" alt="Carta di Piri Reis con la città di Gallipoli" class="w-full h-full object-cover group-hover:scale-105 transition duration-500"></div>
+                        <div class="p-5">
+                            <h3 class="font-serif text-lg font-bold text-sabbia group-hover:text-corallo transition">Gallipoli in Piri Reis</h3>
+                            <p class="text-sabbia/75 text-xs mt-1">Kitab-ı Bahriye, Walters Art Museum, ms. W.658. <span class="dv">foglio e data della copia</span></p>
+                        </div>
+                    </button>
+
+                    <button type="button" class="group text-left bg-abisso/60 border border-sabbia/10 hover:border-corallo/50 rounded-2xl overflow-hidden transition"
+                            onclick="openLightbox('assets/img/mappe/piri_reis/piri-reis-lecce-gallipoli.webp', 'La costa da Lecce a Gallipoli', 'La costa del Salento nel portolano di Piri Reis. Walters Art Museum, Baltimora, ms. W.658, f. 206b. Pubblico dominio.')">
+                        <div class="h-56 overflow-hidden"><img src="assets/img/mappe/piri_reis/piri-reis-lecce-gallipoli.webp" loading="lazy" alt="Carta di Piri Reis della costa da Lecce a Gallipoli" class="w-full h-full object-cover group-hover:scale-105 transition duration-500"></div>
+                        <div class="p-5">
+                            <h3 class="font-serif text-lg font-bold text-sabbia group-hover:text-corallo transition">La costa da Lecce a Gallipoli</h3>
+                            <p class="text-sabbia/75 text-xs mt-1">Piri Reis, Kitab-ı Bahriye, W.658, f. 206b. Pubblico dominio.</p>
+                        </div>
+                    </button>
                 </div>
-                <div id="tricarico-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"></div>
-                <div class="mt-10 text-center">
-                    <button id="load-more-tricarico" type="button" class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-corallo text-white text-sm font-semibold shadow-lg hover:bg-ruggine transition">
-                        Carica altre foto
+
+                <h3 class="font-serif text-2xl font-bold text-sabbia mt-14 mb-4">Da leggere e scaricare</h3>
+                <ul class="space-y-4 text-sm text-sabbia/85">
+                    <li class="bg-abisso/60 border border-sabbia/10 rounded-xl p-5">
+                        <a href="pdf/Libro%20della%20Tonnara%20formato%20scorrevole%203%20pagine-1.pdf" class="text-corallo font-semibold underline">Il libro della tonnara</a>
+                        <span class="text-sabbia/60">(PDF, 13 MB)</span><br>
+                        Immagini e testi sulla tonnara di Punta Pizzo: Tommaso Pedone, Donato Casalino, la levata. <span class="dv">chi l'ha realizzato, e se possiamo pubblicarlo</span>
+                    </li>
+                    <li class="bg-abisso/60 border border-sabbia/10 rounded-xl p-5">
+                        <a href="pdf/pres.pdf" class="text-corallo font-semibold underline">La tonnara di Gallipoli: presentazione del progetto</a>
+                        <span class="text-sabbia/60">(PDF, 28 MB)</span><br>
+                        G. Quaranta, G. Albahara, L. Tricarico, Gallipoli, 12 ottobre 2024.
+                    </li>
+                    <li class="bg-abisso/60 border border-sabbia/10 rounded-xl p-5">
+                        <span class="font-semibold text-sabbia">E. Pindinelli, <em>L'archivio delle scritture antiche dell'Università di Gallipoli</em>, 2003</span><br>
+                        Lo studio di riferimento sul Libro Rosso e sull'archivio antico della città. <span class="dv">PDF solo con il permesso della Società di Storia Patria</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ALTRE TONNARE -->
+        <section id="confronti" class="py-14">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-sabbia mb-3">Per confronto: altre tonnare</h2>
+                <p class="text-sabbia/80 font-light max-w-2xl mb-8">
+                    Queste immagini non sono di Gallipoli. Le teniamo perché mostrano come funzionava una tonnara, finché non avremo immagini equivalenti della nostra.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <button type="button" class="group text-left bg-oltremare/30 border border-sabbia/10 hover:border-corallo/50 rounded-2xl overflow-hidden transition"
+                            onclick="openLightbox('assets/img/archivio/tonnarotti-reti.webp', 'Pesca del tonno in Sicilia, 1904', 'Fotografia di Eugenio Interguglielmi, Palermo, 1904. Tonnara siciliana. Pubblico dominio.')">
+                        <div class="h-56 overflow-hidden"><img src="assets/img/archivio/tonnarotti-reti.webp" loading="lazy" alt="Tonnarotti al lavoro sulle reti in una tonnara siciliana, 1904" class="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition duration-500"></div>
+                        <div class="p-5">
+                            <h3 class="font-serif text-lg font-bold text-sabbia">Sicilia, 1904</h3>
+                            <p class="text-sabbia/75 text-xs mt-1">E. Interguglielmi, Palermo. Pubblico dominio.</p>
+                        </div>
+                    </button>
+                    <button type="button" class="group text-left bg-oltremare/30 border border-sabbia/10 hover:border-corallo/50 rounded-2xl overflow-hidden transition"
+                            onclick="openLightbox('assets/img/archivio/mattanza-1904.jpg', 'La mattanza in Sicilia, 1904', 'Fotografia di Eugenio Interguglielmi, Palermo, 1904. Tonnara siciliana. Pubblico dominio.')">
+                        <div class="h-56 overflow-hidden"><img src="assets/img/archivio/mattanza-1904.jpg" loading="lazy" alt="La mattanza in una tonnara siciliana, 1904" class="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition duration-500"></div>
+                        <div class="p-5">
+                            <h3 class="font-serif text-lg font-bold text-sabbia">La mattanza, Sicilia, 1904</h3>
+                            <p class="text-sabbia/75 text-xs mt-1">E. Interguglielmi, Palermo. Pubblico dominio.</p>
+                        </div>
+                    </button>
+                    <button type="button" class="group text-left bg-oltremare/30 border border-sabbia/10 hover:border-corallo/50 rounded-2xl overflow-hidden transition"
+                            onclick="openLightbox('assets/img/mappe/pianta-tonnara-1777.webp', 'Pianta di una tonnara fissa, Sardegna, 1777', 'Da Francesco Cetti, Anfibi e pesci di Sardegna, 1777: il pedale, le camere e la camera della morte. Pubblico dominio.')">
+                        <div class="h-56 overflow-hidden"><img src="assets/img/mappe/pianta-tonnara-1777.webp" loading="lazy" alt="Pianta settecentesca di una tonnara fissa sarda" class="w-full h-full object-cover filter sepia transition duration-500"></div>
+                        <div class="p-5">
+                            <h3 class="font-serif text-lg font-bold text-sabbia">Pianta di una tonnara, Sardegna, 1777</h3>
+                            <p class="text-sabbia/75 text-xs mt-1">F. Cetti, <em>Anfibi e pesci di Sardegna</em>. Pubblico dominio.</p>
+                        </div>
                     </button>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- DOCUMENTI -->
-    <section class="py-16 bg-oltremare/10 border-b border-sabbia/5" data-tipo="documents">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="mb-12">
-                <span class="text-corallo font-semibold text-xs tracking-widest uppercase">Fonti d'Archivio</span>
-                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-sabbia mt-1">Mappe, Regi Diplomi e Registri</h2>
-                <p class="text-sabbia/80 text-sm max-w-2xl font-light mt-4">
-                    I documenti più antichi parlano di trasferimenti di carte, del Libro Rosso e della dispersione di interi fascicoli. Chi visita questa collezione trova tracce di un archivio che ha rischiato di perdersi e di una memoria che esige tutela.
-                </p>
-                <blockquote class="border-l-4 border-corallo pl-5 text-sabbia/85 italic mt-6 mb-6">
-                    “L’intero archivio preunitario che trovavasi accatastato nel teatro Garibaldi, fu ceduto dal Comune ad un rigattiere...”
-                </blockquote>
-                <p class="text-xs text-sabbia/70 font-light italic">
-                    Fonte: <strong>Gallipoli_Archivio_delle_scritture_antic.pdf</strong>
-                </p>
-            </div>
-
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                <div class="bg-abisso border border-sabbia/10 p-6 rounded-2xl flex flex-col justify-between">
-                    <div>
-                        <div class="relative h-60 rounded-xl overflow-hidden mb-4 border border-sabbia/10 cursor-pointer group"
-                             role="button" tabindex="0" aria-label="Apri il documento: Pianta Storica di una Tonnara Fissa (1777)"
-                             onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.click();}"
-                             onclick="openLightbox('assets/img/mappe/pianta-tonnara-1777.webp', 'Pianta Storica di una Tonnara Fissa (1777)', 'La pianta che illustra pedale, camere e vascelli di una tonnara fissa, tratta dalla "Anfibi e pesci di Sardegna" di Francesco Cetti (1777). Pubblico dominio.')">
-                            <img src="assets/img/mappe/pianta-tonnara-1777.webp" loading="lazy" alt="Pianta storica del 1777 di una tonnara fissa" class="w-full h-full object-cover filter sepia opacity-80 group-hover:scale-105 transition duration-300">
-                            <span class="absolute top-3 left-3 bg-abisso/90 text-sabbia text-xs px-3 py-1 rounded-full border border-sabbia/10">Documento Storico</span>
-                        </div>
-                        <h3 class="font-serif text-xl font-bold text-sabbia mb-2">Pianta Storica di una Tonnara Fissa (1777)</h3>
-                        <p class="text-sabbia/85 text-xs leading-relaxed font-light mb-4">
-                            Dalla <em>Anfibi e pesci di Sardegna</em> di Francesco Cetti (1777): la geometria di pedale e camere che componeva l'impianto fisso della tonnara.
-                        </p>
-                    </div>
-                    <span class="text-xs text-corallo font-mono">F. Cetti, Anfibi e pesci di Sardegna (1777) • Dominio pubblico</span>
-                </div>
-
-                <div class="bg-abisso border border-sabbia/10 p-6 rounded-2xl flex flex-col justify-between">
-                    <div>
-                        <div class="bg-oltremare/30 border border-sabbia/10 p-4 rounded-xl mb-4 relative min-h-[240px] flex flex-col justify-center overflow-hidden">
-                            <div id="doc-originale">
-                                <img src="assets/img/archivio/ravenna-1836-p106.webp" loading="lazy" alt="Pagina di Ravenna, Memorie istoriche della città di Gallipoli (1836), che cita la tonnara"
-                                     class="max-h-[300px] w-auto mx-auto object-contain rounded-lg border border-sabbia/10 opacity-90">
-                                <p class="text-center text-[10px] text-sabbia/60 mt-2 italic font-serif">
-                                    Bartolomeo Ravenna, <em>Memorie istoriche della città di Gallipoli</em> (1836), p. 106
-                                </p>
-                            </div>
-                            <div id="doc-trascrizione" class="hidden text-xs text-sabbia/85 leading-relaxed font-light">
-                                <span class="text-corallo font-bold block mb-2">TRASCRIZIONE IN ITALIANO MODERNO:</span>
-                                <p>
-                                    "Il mare Ionio, ceruleo e ridente, che forma la rada e che circonda Gallipoli, è prodigo de' suoi doni. Vi si osserva e vi si pesca del pesce in abbondanza e di varie specie… ed è la sola Gallipoli tra i luoghi marittimi della Provincia, che nel seno del suo mare offre la tonnara, e colla pesca dei tonni e di altri pesci di questo genere ne somministra alle popolazioni adiacenti."
-                                </p>
-                            </div>
-                        </div>
-                        <h3 class="font-serif text-xl font-bold text-sabbia mb-2">Memorie Istoriche della Città di Gallipoli (1836)</h3>
-                        <p class="text-sabbia/85 text-xs leading-relaxed font-light mb-4">
-                            La pagina in cui Bartolomeo Ravenna ricorda che <em>"è la sola Gallipoli tra i luoghi marittimi della Provincia, che nel seno del suo mare offre la tonnara"</em>.
-                        </p>
-                    </div>
-                    <div class="flex items-center justify-between pt-2 border-t border-sabbia/10">
-                        <button onclick="toggleTrascrizione()" id="btn-trascrizione" class="text-xs text-corallo font-semibold hover:underline">
-                            Leggi Trascrizione
-                        </button>
-                        <span class="text-xs text-sabbia/70 font-mono">B. Ravenna, Gallipoli (1836) • Dominio pubblico</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CARTOGRAFIA STORICA -->
-    <section class="py-16 bg-abisso/90 border-b border-sabbia/10" data-tipo="documents-maps" id="cartografia">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="mb-12">
-                <span class="text-corallo font-semibold text-xs tracking-widest uppercase">Cartografia Storica</span>
-                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-sabbia mt-1">Le Rotte dei Tonni e i Porti del Golfo</h2>
-                <p class="text-sabbia/80 text-sm max-w-2xl font-light mt-4">
-                    Dal <em>Kitab-ı Bahriye</em> (Libro della Navigazione) di Piri Reis, l'ammiraglio e cartografo ottomano: le carte che ritraggono la costa del Salento, il golfo di Taranto e il Mediterraneo al tempo in cui la tonnara di Gallipoli era tra le più ricche del Regno.
-                </p>
-                <p class="text-xs text-sabbia/70 font-light italic mt-3">
-                    Fonte: Piri Reis, <em>Kitab-ı Bahriye</em>, manoscritto W.658 del Walters Art Museum (Baltimore) • Dominio pubblico (CC0)
-                </p>
-            </div>
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div onclick="openLightbox('assets/img/mappe/piri_reis/piri-reis-lecce-gallipoli.webp', 'La Costa da Lecce a Gallipoli', 'La costa ionica del Salento da Lecce fino a Gallipoli: il golfo che ospitava la tonnara e la calata delle sue reti.')"
-                     role="button" tabindex="0" aria-label="Apri la mappa: La Costa da Lecce a Gallipoli"
-                     onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.click();}"
-                     class="group bg-oltremare/30 border border-sabbia/10 rounded-2xl overflow-hidden cursor-pointer hover:border-corallo/50 transition duration-300">
-                    <div class="h-64 overflow-hidden relative">
-                        <img src="assets/img/mappe/piri_reis/piri-reis-lecce-gallipoli.webp" loading="lazy" alt="Carta di Piri Reis della costa italiana da Lecce a Gallipoli" class="w-full h-full object-cover filter sepia opacity-80 group-hover:scale-105 group-hover:opacity-100 transition duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-abisso via-transparent to-transparent opacity-80"></div>
-                        <span class="absolute top-3 left-3 bg-abisso/80 text-sabbia text-xs px-3 py-1 rounded-full border border-sabbia/10">Piri Reis • XVI sec.</span>
-                    </div>
-                    <div class="p-5">
-                        <h3 class="font-serif text-lg font-bold text-sabbia group-hover:text-corallo transition">La Costa da Lecce a Gallipoli</h3>
-                        <p class="text-sabbia/80 text-xs mt-1 font-light line-clamp-2">La costa ionica del Salento da Lecce fino a Gallipoli, con il golfo che ospitava la tonnara.</p>
-                        <span class="text-[10px] text-corallo font-mono mt-2 block">Kitab-ı Bahriye, f. 206b • W.658.206B</span>
-                    </div>
-                </div>
-
-                <div onclick="openLightbox('assets/img/mappe/piri_reis/piri-reis-taranto.webp', 'La Città di Taranto', 'La città di Taranto in Puglia: l\\'estremità settentrionale del golfo di Taranto.')"
-                     role="button" tabindex="0" aria-label="Apri la mappa: La Città di Taranto"
-                     onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.click();}"
-                     class="group bg-oltremare/30 border border-sabbia/10 rounded-2xl overflow-hidden cursor-pointer hover:border-corallo/50 transition duration-300">
-                    <div class="h-64 overflow-hidden relative">
-                        <img src="assets/img/mappe/piri_reis/piri-reis-taranto.webp" loading="lazy" alt="Carta di Piri Reis della città di Taranto" class="w-full h-full object-cover filter sepia opacity-80 group-hover:scale-105 group-hover:opacity-100 transition duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-abisso via-transparent to-transparent opacity-80"></div>
-                        <span class="absolute top-3 left-3 bg-abisso/80 text-sabbia text-xs px-3 py-1 rounded-full border border-sabbia/10">Piri Reis • XVI sec.</span>
-                    </div>
-                    <div class="p-5">
-                        <h3 class="font-serif text-lg font-bold text-sabbia group-hover:text-corallo transition">La Città di Taranto</h3>
-                        <p class="text-sabbia/80 text-xs mt-1 font-light line-clamp-2">L'estremità settentrionale del golfo di Taranto, a nord della costa di Gallipoli.</p>
-                        <span class="text-[10px] text-corallo font-mono mt-2 block">Kitab-ı Bahriye, f. 208b • W.658.208B</span>
-                    </div>
-                </div>
-
-                <div onclick="openLightbox('assets/img/mappe/piri_reis/piri-reis-adriatico.webp', 'Coste e Isole dell\\'Adriatico', 'La costa adriatica e le sue isole: il versante opposto della penisola salentina.')"
-                     role="button" tabindex="0" aria-label="Apri la mappa: Coste e Isole dell'Adriatico"
-                     onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.click();}"
-                     class="group bg-oltremare/30 border border-sabbia/10 rounded-2xl overflow-hidden cursor-pointer hover:border-corallo/50 transition duration-300">
-                    <div class="h-64 overflow-hidden relative">
-                        <img src="assets/img/mappe/piri_reis/piri-reis-adriatico.webp" loading="lazy" alt="Carta di Piri Reis delle coste e delle isole dell'Adriatico" class="w-full h-full object-cover filter sepia opacity-80 group-hover:scale-105 group-hover:opacity-100 transition duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-abisso via-transparent to-transparent opacity-80"></div>
-                        <span class="absolute top-3 left-3 bg-abisso/80 text-sabbia text-xs px-3 py-1 rounded-full border border-sabbia/10">Piri Reis • XVI sec.</span>
-                    </div>
-                    <div class="p-5">
-                        <h3 class="font-serif text-lg font-bold text-sabbia group-hover:text-corallo transition">Coste e Isole dell'Adriatico</h3>
-                        <p class="text-sabbia/80 text-xs mt-1 font-light line-clamp-2">La costa adriatica e le sue isole: il versante opposto della penisola salentina.</p>
-                        <span class="text-[10px] text-corallo font-mono mt-2 block">Kitab-ı Bahriye, f. 208a • W.658.208A</span>
-                    </div>
-                </div>
-
-                <div onclick="openLightbox('assets/img/mappe/piri_reis/piri-reis-brindisi.webp', 'Il Porto di Brindisi', 'Il porto di Brindisi (Parindis), storico scalo dell\\'Adriatico a nord di Gallipoli.')"
-                     role="button" tabindex="0" aria-label="Apri la mappa: Il Porto di Brindisi"
-                     onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.click();}"
-                     class="group bg-oltremare/30 border border-sabbia/10 rounded-2xl overflow-hidden cursor-pointer hover:border-corallo/50 transition duration-300">
-                    <div class="h-64 overflow-hidden relative">
-                        <img src="assets/img/mappe/piri_reis/piri-reis-brindisi.webp" loading="lazy" alt="Carta di Piri Reis del porto di Brindisi" class="w-full h-full object-cover filter sepia opacity-80 group-hover:scale-105 group-hover:opacity-100 transition duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-abisso via-transparent to-transparent opacity-80"></div>
-                        <span class="absolute top-3 left-3 bg-abisso/80 text-sabbia text-xs px-3 py-1 rounded-full border border-sabbia/10">Piri Reis • XVI sec.</span>
-                    </div>
-                    <div class="p-5">
-                        <h3 class="font-serif text-lg font-bold text-sabbia group-hover:text-corallo transition">Il Porto di Brindisi</h3>
-                        <p class="text-sabbia/80 text-xs mt-1 font-light line-clamp-2">Il porto di Brindisi (Parindis), storico scalo dell'Adriatico a nord di Gallipoli.</p>
-                        <span class="text-[10px] text-corallo font-mono mt-2 block">Kitab-ı Bahriye, f. 205a • W.658.205A</span>
-                    </div>
-                </div>
-
-                <div onclick="openLightbox('assets/img/mappe/piri_reis/piri-reis-calabria-rossano.webp', 'La Costa Orientale della Calabria (Rossano)', 'La costa ionica della Calabria presso Rossano: il lato opposto del golfo di Taranto.')"
-                     role="button" tabindex="0" aria-label="Apri la mappa: La Costa Orientale della Calabria (Rossano)"
-                     onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.click();}"
-                     class="group bg-oltremare/30 border border-sabbia/10 rounded-2xl overflow-hidden cursor-pointer hover:border-corallo/50 transition duration-300">
-                    <div class="h-64 overflow-hidden relative">
-                        <img src="assets/img/mappe/piri_reis/piri-reis-calabria-rossano.webp" loading="lazy" alt="Carta di Piri Reis della costa orientale della Calabria presso Rossano" class="w-full h-full object-cover filter sepia opacity-80 group-hover:scale-105 group-hover:opacity-100 transition duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-abisso via-transparent to-transparent opacity-80"></div>
-                        <span class="absolute top-3 left-3 bg-abisso/80 text-sabbia text-xs px-3 py-1 rounded-full border border-sabbia/10">Piri Reis • XVI sec.</span>
-                    </div>
-                    <div class="p-5">
-                        <h3 class="font-serif text-lg font-bold text-sabbia group-hover:text-corallo transition">La Costa Orientale della Calabria (Rossano)</h3>
-                        <p class="text-sabbia/80 text-xs mt-1 font-light line-clamp-2">La costa ionica della Calabria presso Rossano: il lato opposto del golfo di Taranto.</p>
-                        <span class="text-[10px] text-corallo font-mono mt-2 block">Kitab-ı Bahriye, f. 210a • W.658.210A</span>
-                    </div>
-                </div>
-
-                <div onclick="openLightbox('assets/img/mappe/piri_reis/piri-reis-calabria-crotone-catanzaro.webp', 'Crotone e Catanzaro', 'Crotone e Catanzaro sulla costa orientale della Calabria, lungo le rotte del tonno.')"
-                     role="button" tabindex="0" aria-label="Apri la mappa: Crotone e Catanzaro"
-                     onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.click();}"
-                     class="group bg-oltremare/30 border border-sabbia/10 rounded-2xl overflow-hidden cursor-pointer hover:border-corallo/50 transition duration-300">
-                    <div class="h-64 overflow-hidden relative">
-                        <img src="assets/img/mappe/piri_reis/piri-reis-calabria-crotone-catanzaro.webp" loading="lazy" alt="Carta di Piri Reis della costa orientale della Calabria con Crotone e Catanzaro" class="w-full h-full object-cover filter sepia opacity-80 group-hover:scale-105 group-hover:opacity-100 transition duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-abisso via-transparent to-transparent opacity-80"></div>
-                        <span class="absolute top-3 left-3 bg-abisso/80 text-sabbia text-xs px-3 py-1 rounded-full border border-sabbia/10">Piri Reis • XVI sec.</span>
-                    </div>
-                    <div class="p-5">
-                        <h3 class="font-serif text-lg font-bold text-sabbia group-hover:text-corallo transition">Crotone e Catanzaro</h3>
-                        <p class="text-sabbia/80 text-xs mt-1 font-light line-clamp-2">Crotone e Catanzaro sulla costa orientale della Calabria, lungo le rotte del tonno.</p>
-                        <span class="text-[10px] text-corallo font-mono mt-2 block">Kitab-ı Bahriye, f. 211b • W.658.211B</span>
-                    </div>
-                </div>
-
-                <div onclick="openLightbox('assets/img/mappe/piri_reis/piri-reis-calabria-catanzaro-squillace.webp', 'Da Catanzaro a Squillace', 'Il tratto di costa calabrese da Catanzaro a Squillace, sul golfo di Taranto.')"
-                     role="button" tabindex="0" aria-label="Apri la mappa: Da Catanzaro a Squillace"
-                     onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.click();}"
-                     class="group bg-oltremare/30 border border-sabbia/10 rounded-2xl overflow-hidden cursor-pointer hover:border-corallo/50 transition duration-300">
-                    <div class="h-64 overflow-hidden relative">
-                        <img src="assets/img/mappe/piri_reis/piri-reis-calabria-catanzaro-squillace.webp" loading="lazy" alt="Carta di Piri Reis della costa calabrese da Catanzaro a Squillace" class="w-full h-full object-cover filter sepia opacity-80 group-hover:scale-105 group-hover:opacity-100 transition duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-abisso via-transparent to-transparent opacity-80"></div>
-                        <span class="absolute top-3 left-3 bg-abisso/80 text-sabbia text-xs px-3 py-1 rounded-full border border-sabbia/10">Piri Reis • XVI sec.</span>
-                    </div>
-                    <div class="p-5">
-                        <h3 class="font-serif text-lg font-bold text-sabbia group-hover:text-corallo transition">Da Catanzaro a Squillace</h3>
-                        <p class="text-sabbia/80 text-xs mt-1 font-light line-clamp-2">Il tratto di costa calabrese da Catanzaro a Squillace, sul golfo di Taranto.</p>
-                        <span class="text-[10px] text-corallo font-mono mt-2 block">Kitab-ı Bahriye, f. 212b • W.658.212B</span>
-                    </div>
-                </div>
-
-                <div onclick="openLightbox('assets/img/mappe/piri_reis/piri-reis-calabria-stretto-messina.webp', 'La Calabria Meridionale e lo Stretto di Messina', 'L\\'estremità meridionale della Calabria e lo Stretto di Messina, al limite meridionale del golfo.')"
-                     role="button" tabindex="0" aria-label="Apri la mappa: La Calabria Meridionale e lo Stretto di Messina"
-                     onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.click();}"
-                     class="group bg-oltremare/30 border border-sabbia/10 rounded-2xl overflow-hidden cursor-pointer hover:border-corallo/50 transition duration-300">
-                    <div class="h-64 overflow-hidden relative">
-                        <img src="assets/img/mappe/piri_reis/piri-reis-calabria-stretto-messina.webp" loading="lazy" alt="Carta di Piri Reis della Calabria meridionale e dello Stretto di Messina" class="w-full h-full object-cover filter sepia opacity-80 group-hover:scale-105 group-hover:opacity-100 transition duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-abisso via-transparent to-transparent opacity-80"></div>
-                        <span class="absolute top-3 left-3 bg-abisso/80 text-sabbia text-xs px-3 py-1 rounded-full border border-sabbia/10">Piri Reis • XVI sec.</span>
-                    </div>
-                    <div class="p-5">
-                        <h3 class="font-serif text-lg font-bold text-sabbia group-hover:text-corallo transition">La Calabria Meridionale e lo Stretto di Messina</h3>
-                        <p class="text-sabbia/80 text-xs mt-1 font-light line-clamp-2">L'estremità meridionale della Calabria e lo Stretto di Messina, al limite meridionale del golfo.</p>
-                        <span class="text-[10px] text-corallo font-mono mt-2 block">Kitab-ı Bahriye, f. 213b • W.658.213B</span>
-                    </div>
-                </div>
-
-                <div onclick="openLightbox('assets/img/mappe/piri_reis/piri-reis-mediterraneo-orientale.webp', 'Mediterraneo Orientale, Egeo e Mar Nero', 'Visione d\\'insieme del Mediterraneo orientale, del mar Egeo e del Mar Nero.')"
-                     role="button" tabindex="0" aria-label="Apri la mappa: Mediterraneo Orientale, Egeo e Mar Nero"
-                     onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.click();}"
-                     class="group bg-oltremare/30 border border-sabbia/10 rounded-2xl overflow-hidden cursor-pointer hover:border-corallo/50 transition duration-300">
-                    <div class="h-64 overflow-hidden relative">
-                        <img src="assets/img/mappe/piri_reis/piri-reis-mediterraneo-orientale.webp" loading="lazy" alt="Carta di Piri Reis del Mediterraneo orientale, del mar Egeo e del Mar Nero" class="w-full h-full object-cover filter sepia opacity-80 group-hover:scale-105 group-hover:opacity-100 transition duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-abisso via-transparent to-transparent opacity-80"></div>
-                        <span class="absolute top-3 left-3 bg-abisso/80 text-sabbia text-xs px-3 py-1 rounded-full border border-sabbia/10">Piri Reis • XVI sec.</span>
-                    </div>
-                    <div class="p-5">
-                        <h3 class="font-serif text-lg font-bold text-sabbia group-hover:text-corallo transition">Mediterraneo Orientale, Egeo e Mar Nero</h3>
-                        <p class="text-sabbia/80 text-xs mt-1 font-light line-clamp-2">Visione d'insieme del Mediterraneo orientale, del mar Egeo e del Mar Nero.</p>
-                        <span class="text-[10px] text-corallo font-mono mt-2 block">Kitab-ı Bahriye, f. 63b • W.658.63B</span>
-                    </div>
-                </div>
-
-                <div onclick="openLightbox('assets/img/mappe/piri_reis/piri-reis-europa-nordafrica.webp', 'Europa Occidentale e Nord Africa', 'L\\'Europa occidentale e il Nord Africa in un\\'unica carta di navigazione.')"
-                     role="button" tabindex="0" aria-label="Apri la mappa: Europa Occidentale e Nord Africa"
-                     onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.click();}"
-                     class="group bg-oltremare/30 border border-sabbia/10 rounded-2xl overflow-hidden cursor-pointer hover:border-corallo/50 transition duration-300">
-                    <div class="h-64 overflow-hidden relative">
-                        <img src="assets/img/mappe/piri_reis/piri-reis-europa-nordafrica.webp" loading="lazy" alt="Carta di Piri Reis dell'Europa occidentale e del Nord Africa" class="w-full h-full object-cover filter sepia opacity-80 group-hover:scale-105 group-hover:opacity-100 transition duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-abisso via-transparent to-transparent opacity-80"></div>
-                        <span class="absolute top-3 left-3 bg-abisso/80 text-sabbia text-xs px-3 py-1 rounded-full border border-sabbia/10">Piri Reis • XVI sec.</span>
-                    </div>
-                    <div class="p-5">
-                        <h3 class="font-serif text-lg font-bold text-sabbia group-hover:text-corallo transition">Europa Occidentale e Nord Africa</h3>
-                        <p class="text-sabbia/80 text-xs mt-1 font-light line-clamp-2">L'Europa occidentale e il Nord Africa in un'unica carta di navigazione.</p>
-                        <span class="text-[10px] text-corallo font-mono mt-2 block">Kitab-ı Bahriye, f. 64a • W.658.64A</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- INVENTARIO D'ARCHIVIO -->
-    <section class="py-16 bg-oltremare/10 border-b border-sabbia/10" data-tipo="documents-inventory">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="mb-12">
-                <span class="text-corallo font-semibold text-xs tracking-widest uppercase">Inventario d'Archivio</span>
-                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-sabbia mt-1">Materiali non digitalizzati</h2>
-                <p class="text-sabbia/80 text-sm max-w-2xl font-light mt-4">
-                    Il nucleo documentario originale è consultabile in sede. Di seguito l'inventario descrittivo delle serie e dei registri: un primo strumento di lavoro per gli studiosi.
-                </p>
-            </div>
-
-            <div class="bg-abisso/80 border border-sabbia/10 rounded-2xl overflow-hidden">
-                <div class="overflow-x-auto">
-                    <table class="w-full text-left text-sm">
-                        <thead>
-                            <tr class="border-b border-sabbia/15 text-sabbia/70 text-xs uppercase tracking-wider">
-                                <th class="px-6 py-4 font-semibold">Voce</th>
-                                <th class="px-6 py-4 font-semibold">Contenuto</th>
-                                <th class="px-6 py-4 font-semibold">Periodo</th>
-                                <th class="px-6 py-4 font-semibold">Conservazione</th>
-                                <th class="px-6 py-4 font-semibold">Accesso</th>
-                            </tr>
-                        </thead>
-                        <tbody class="divide-y divide-sabbia/10">
-                            <tr>
-                                <td class="px-6 py-4 font-serif font-bold text-sabbia">Libro Rosso I</td>
-                                <td class="px-6 py-4 text-sabbia/80 font-light">Privilegi e concessioni reali dell'Università (Comune) di Gallipoli, tra cui il diploma di Carlo V (1526) sul monopolio delle acque.</td>
-                                <td class="px-6 py-4 text-sabbia/80 font-mono text-xs">XVI sec.</td>
-                                <td class="px-6 py-4 text-sabbia/80 text-xs">Buono (restauri in corso)</td>
-                                <td class="px-6 py-4"><span class="text-xs bg-corallo/10 text-corallo px-2.5 py-1 rounded-full border border-corallo/20">In sede</span></td>
-                            </tr>
-                            <tr>
-                                <td class="px-6 py-4 font-serif font-bold text-sabbia">Libro Rosso II</td>
-                                <td class="px-6 py-4 text-sabbia/80 font-light">Continuazione del registro: concessioni, dazi e delibere comunali relative alle acque giurisdizionali.</td>
-                                <td class="px-6 py-4 text-sabbia/80 font-mono text-xs">XVI–XVII sec.</td>
-                                <td class="px-6 py-4 text-sabbia/80 text-xs">Discreto</td>
-                                <td class="px-6 py-4"><span class="text-xs bg-corallo/10 text-corallo px-2.5 py-1 rounded-full border border-corallo/20">In sede</span></td>
-                            </tr>
-                            <tr>
-                                <td class="px-6 py-4 font-serif font-bold text-sabbia">Fascicoli "Tonnara Comunale"</td>
-                                <td class="px-6 py-4 text-sabbia/80 font-light">Serie documentaria sull'amministrazione e sulla concessione della tonnara comunale.</td>
-                                <td class="px-6 py-4 text-sabbia/80 font-mono text-xs">XIX sec.</td>
-                                <td class="px-6 py-4 text-sabbia/80 text-xs">Frammentario</td>
-                                <td class="px-6 py-4"><span class="text-xs bg-corallo/10 text-corallo px-2.5 py-1 rounded-full border border-corallo/20">In sede</span></td>
-                            </tr>
-                            <tr>
-                                <td class="px-6 py-4 font-serif font-bold text-sabbia">Verbale di trasferimento dell'archivio (1833)</td>
-                                <td class="px-6 py-4 text-sabbia/80 font-light">Verbale del cancelliere Carlo Mazzarella, firmato dal sindaco Francesco Pasca, sul trasferimento dell'archivio antico del Comune.</td>
-                                <td class="px-6 py-4 text-sabbia/80 font-mono text-xs">1833</td>
-                                <td class="px-6 py-4 text-sabbia/80 text-xs">Digitalizzato</td>
-                                <td class="px-6 py-4"><a href="pdf/Gallipoli_Archivio_delle_scritture_antic.pdf" class="text-xs text-corallo hover:underline">PDF &darr;</a></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-            <p class="text-xs text-sabbia/70 font-light italic mt-4">
-                Le segnature archivistiche definitive saranno pubblicate a seguito delle operazioni di inventariazione. Per la consultazione, utilizza il <a href="partecipa.html" class="text-corallo hover:underline">form di contatto per i ricercatori</a>.
-            </p>
-        </div>
-    </section>
-
-    <section class="py-14 bg-abisso/80 border-b border-sabbia/10" data-tipo="documents-pdf">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-oltremare/20 border border-sabbia/10 rounded-3xl p-8">
-                <h2 class="font-serif text-2xl font-bold text-sabbia mb-4">Documenti PDF di riferimento</h2>
-                <p class="text-sabbia/80 text-sm font-light mb-6">Scarica i testi originali legati alle fonti storiche e alla tonnara.</p>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sabbia/80 text-sm">
-                    <a href="pdf/Gallipoli_Archivio_delle_scritture_antic.pdf" class="block rounded-2xl border border-sabbia/10 bg-abisso/90 p-4 hover:border-corallo/50 transition">
-                        <span class="font-semibold text-corallo break-all">Gallipoli_Archivio_delle_scritture_antic.pdf</span>
-                        <p class="mt-2">Libro Rosso e l’archivio antico di Gallipoli.</p>
-                    </a>
-                    <a href="pdf/Libro%20della%20Tonnara%20formato%20scorrevole%203%20pagine-1.pdf" class="block rounded-2xl border border-sabbia/10 bg-abisso/90 p-4 hover:border-corallo/50 transition">
-                        <span class="font-semibold text-corallo break-all">Libro della Tonnara formato scorrevole 3 pagine-1.pdf</span>
-                        <p class="mt-2">Immagini e testi sulla tonnara di Punta Pizzo.</p>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- AUDIOTECA -->
-    <section class="py-16" data-tipo="audio">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-10">
-                <span class="text-corallo font-semibold text-xs tracking-widest uppercase">Audioteca</span>
-                <h2 class="font-serif text-3xl font-bold text-sabbia mt-1">Le Voci del Mare: Le Cialome</h2>
-                <p class="text-sabbia/85 text-sm font-light mt-2">
-                    I canti ritmici utilizzati dai tonnarotti per cadenzare lo sforzo a mani nude sulle reti.
-                </p>
-            </div>
-
-            <div class="bg-oltremare/40 border border-sabbia/15 p-6 rounded-2xl flex flex-col sm:flex-row items-center gap-6 shadow-xl">
-                <div class="w-16 h-16 bg-corallo/20 border border-corallo/40 rounded-full flex items-center justify-center text-corallo flex-shrink-0">
-                    <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="M9 18V5l12-2v13"/>
-                        <circle cx="6" cy="18" r="3"/>
-                        <circle cx="18" cy="16" r="3"/>
-                    </svg>
-                </div>
-                <div class="flex-1 text-center sm:text-left">
-                    <h3 class="font-serif font-bold text-sabbia text-lg">Cialoma del Ritirato: "Aiamola"</h3>
-                    <p class="text-xs text-sabbia/80 font-light mt-1">Registrazione etno-musicale d'epoca • Voce del Rais e ciurma</p>
-                    <span class="stato-piano mt-3">Audio in preparazione</span>
-                    <p class="text-xs text-sabbia/80 font-light mt-3">
-                        La registrazione verrà resa disponibile al termine della digitalizzazione dell'audioteca d'archivio.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- MODALE LIGHTBOX -->
     <div id="lightbox" class="modal-backdrop fixed inset-0 z-50 bg-abisso/95 backdrop-blur-lg hidden flex flex-col items-center justify-center p-4 sm:p-8" role="dialog" aria-modal="true" aria-label="Immagine ingrandita" data-close="closeLightbox">
-        <button onclick="closeLightbox()" class="absolute top-6 right-6 text-sabbia hover:text-corallo text-3xl font-bold focus:outline-none" aria-label="Chiudi finestra">
-            &times;
-        </button>
+        <button onclick="closeLightbox()" class="absolute top-6 right-6 text-sabbia hover:text-corallo text-3xl font-bold focus:outline-none" aria-label="Chiudi">&times;</button>
         <div class="max-w-4xl w-full text-center space-y-4">
-            <img id="lightbox-img" src="" alt="Zoom Immagine" class="max-h-[70vh] mx-auto rounded-xl border border-sabbia/20 shadow-2xl object-contain">
+            <img id="lightbox-img" src="" alt="Immagine ingrandita" class="max-h-[70vh] mx-auto rounded-xl border border-sabbia/20 shadow-2xl object-contain">
             <h3 id="lightbox-title" class="font-serif text-2xl font-bold text-sabbia mt-4"></h3>
             <p id="lightbox-desc" class="text-sabbia/85 text-sm font-light max-w-2xl mx-auto leading-relaxed"></p>
         </div>
     </div>
+
+    <div class="avviso-prova" style="position:fixed;bottom:0;left:0;right:0;z-index:60">Versione di prova &middot; le parti evidenziate in arancione sono da confermare</div>
 
     <script src="assets/js/layout.js"></script>
     <script src="assets/js/archivio.js"></script>

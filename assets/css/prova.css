@@ -1,0 +1,49 @@
+/* Solo per la versione di prova: evidenzia le parti da confermare.
+   Da eliminare quando i contenuti sono definitivi. */
+
+.dv {
+    background: rgba(230, 92, 64, 0.14);
+    border-bottom: 1px dashed #E65C40;
+    color: #F4EBE1;
+    padding: 0 0.2em;
+    border-radius: 3px;
+}
+
+.dv::before {
+    content: "da confermare: ";
+    font-size: 0.7em;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #E65C40;
+}
+
+.segnaposto {
+    border: 2px dashed rgba(230, 92, 64, 0.6);
+    background: rgba(30, 62, 98, 0.35);
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgba(244, 235, 225, 0.75);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+}
+
+.avviso-prova {
+    background: #E65C40;
+    color: #fff;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 0.45rem 1rem;
+}
+
+/* Classi Tailwind non ancora presenti nel CSS compilato:
+   spariscono da qui dopo un "npm run build". */
+.mt-14{margin-top:3.5rem}.object-top{object-position:top}.pb-12{padding-bottom:3rem}.pl-6{padding-left:1.5rem}
+.pt-32{padding-top:8rem}.px-7{padding-left:1.75rem;padding-right:1.75rem}
+.space-y-16>:not([hidden])~:not([hidden]){margin-top:4rem}
+.text-sabbia\/40{color:rgb(244 235 225 / .4)}.text-sabbia\/50{color:rgb(244 235 225 / .5)}.text-sabbia\/75{color:rgb(244 235 225 / .75)}
+@media (min-width:640px){.sm\:inline{display:inline}}
