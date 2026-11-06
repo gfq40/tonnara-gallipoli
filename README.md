@@ -4,7 +4,7 @@ Sito vetrina statico bilingue (IT/EN) del Museo Multimediale della Tonnara di Ga
 
 Bilingual (IT/EN) static showcase website of the Multimedia Museum of the Gallipoli Tuna Fishery: historical memory, historical cartography, photographic archive and a scholars' section on the Gallipoli tonnara (Salento, Apulia).
 
-- **Demo live / Live demo**: https://gfq40.github.io/tonnara-gallipoli/
+- **Demo live / Live demo**: https://www.tonnaragallipoli.it/
 - **Lingue / Languages**: italiano · english
 
 ## Funzionalità / Features

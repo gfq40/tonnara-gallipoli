@@ -217,7 +217,7 @@
     (function injectJSONLD() {
         var page = currentPage;
         var lang = isEnglish ? 'en' : 'it';
-        var base = 'https://www.tonnaradigallipoli.it/';
+        var base = 'https://www.tonnaragallipoli.it/';
         var canonical = page === 'index.html' ? base : base + page;
         var pageKey = page.replace(/-en\.html$/, '.html');
 

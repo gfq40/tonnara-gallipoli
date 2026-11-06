@@ -149,6 +149,13 @@ function renderTricaricoBatch() {
   }
 }
 function initTricaricoGallery() {
+  // Se le foto non sono ancora state pubblicate, nasconde la sezione invece di mostrare riquadri vuoti.
+  const container = document.getElementById("tricarico-grid");
+  if (container && tricaricoItems.length) {
+    const probe = new Image();
+    probe.onerror = () => { container.parentElement.style.display = "none"; };
+    probe.src = tricaricoItems[0].src;
+  }
   renderTricaricoBatch();
   const button = document.getElementById("load-more-tricarico");
   if (button) {
