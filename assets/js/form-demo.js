@@ -2,7 +2,7 @@
 (function () {
     'use strict';
 
-    var ACCESS_KEY = '__WEB3FORMS_KEY__';
+    var ACCESS_KEY = 'c2772d3d-3373-4aec-99cc-a5a7d9fd563b';
     var ENDPOINT = 'https://api.web3forms.com/submit';
     var EN = (document.documentElement.lang || '').indexOf('en') === 0;
 
