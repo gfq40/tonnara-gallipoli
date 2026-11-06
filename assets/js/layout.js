@@ -146,6 +146,7 @@
             '<div class="text-center md:text-left">',
             '<p class="font-serif font-bold text-sabbia text-lg">TONNARA DI GALLIPOLI</p>',
             '<p class="text-xs mt-1">' + T.footerTagline + '</p>',
+            '<p class="text-xs mt-2"><a href="mailto:info@tonnaragallipoli.it" class="text-corallo hover:text-sabbia transition">info@tonnaragallipoli.it</a></p>',
             '</div>',
             '<div class="flex flex-wrap justify-center gap-6 text-xs">',
             T.footerLinks.map(function (l) {
