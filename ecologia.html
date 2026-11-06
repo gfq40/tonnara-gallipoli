@@ -247,89 +247,15 @@
             <div class="bg-abisso/80 border border-sabbia/10 rounded-3xl p-6 sm:p-8 mb-12 space-y-2 text-sm font-light text-sabbia/85">
                 <p><span class="text-corallo font-semibold">Come funziona:</span> il bando si apre in primavera, la giuria (comitato scientifico del museo, studiosi e partner) valuta le candidature in estate, la premiazione si svolge durante la <strong>Giornata del Mare</strong> in autunno, al museo.</p>
                 <p><span class="text-corallo font-semibold">Apertura:</span> le idee presentate, con il consenso degli autori, verranno pubblicate in formato aperto e machine-readable (CC0), coerente con la filosofia del <a href="fonti.html" class="text-corallo underline hover:text-ruggine">catalogo dati</a> del progetto.</p>
-                <p><span class="text-corallo font-semibold">Iniziativa dimostrativa:</span> il bando è presentato come progetto in sviluppo e il modulo sottostante è dimostrativo (nessun invio a server).</p>
+                <p><span class="text-corallo font-semibold">Iniziativa in preparazione:</span> il bando non è ancora aperto. Le modalità, il premio e le scadenze verranno pubblicati su questa pagina.</p>
             </div>
 
-            <div class="max-w-3xl mx-auto">
-                <form id="form-concorso" class="bg-oltremare/40 border border-sabbia/15 p-8 sm:p-12 rounded-3xl shadow-2xl space-y-6" novalidate>
-                    <h3 class="font-serif text-2xl font-bold text-sabbia">Candidati con la tua idea</h3>
-                    <p class="text-sabbia/85 text-sm font-light -mt-4">
-                        Compila il modulo: il comitato ti ricontatterà per completare la candidatura.
-                    </p>
-                    <div class="hidden" aria-hidden="true">
-                        <label for="campo-web-c">Non compilare questo campo</label>
-                        <input type="text" id="campo-web-c" name="website" tabindex="-1" autocomplete="off">
-                    </div>
-
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                        <div>
-                            <label for="c-nome" class="block text-xs font-semibold text-sabbia uppercase tracking-wider mb-2">Nome e Cognome *</label>
-                            <input type="text" id="c-nome" name="nome" required placeholder="Es. Maria Bianchi"
-                                   class="w-full bg-abisso/90 border border-sabbia/20 rounded-xl px-5 py-3.5 text-sabbia placeholder-sabbia/60 focus:outline-none focus:border-corallo transition text-sm">
-                        </div>
-                        <div>
-                            <label for="c-email" class="block text-xs font-semibold text-sabbia uppercase tracking-wider mb-2">Indirizzo Email *</label>
-                            <input type="email" id="c-email" name="email" required placeholder="nome@esempio.it"
-                                   class="w-full bg-abisso/90 border border-sabbia/20 rounded-xl px-5 py-3.5 text-sabbia placeholder-sabbia/60 focus:outline-none focus:border-corallo transition text-sm">
-                        </div>
-                    </div>
-
-                    <div>
-                        <label for="c-categoria" class="block text-xs font-semibold text-sabbia uppercase tracking-wider mb-2">Categoria *</label>
-                        <select id="c-categoria" name="categoria" required
-                                class="w-full bg-abisso/90 border border-sabbia/20 rounded-xl px-5 py-3.5 text-sabbia focus:outline-none focus:border-corallo transition text-sm">
-                            <option value="" disabled selected>Seleziona la categoria...</option>
-                            <option value="giovani">Giovani e Scuole (14-19 anni)</option>
-                            <option value="ricercatori">Ricercatori / Start-up / Cittadini</option>
-                        </select>
-                    </div>
-
-                    <div>
-                        <label for="c-titolo" class="block text-xs font-semibold text-sabbia uppercase tracking-wider mb-2">Titolo dell'idea *</label>
-                        <input type="text" id="c-titolo" name="titolo" required placeholder="Un nome breve e chiaro per la tua idea"
-                               class="w-full bg-abisso/90 border border-sabbia/20 rounded-xl px-5 py-3.5 text-sabbia placeholder-sabbia/60 focus:outline-none focus:border-corallo transition text-sm">
-                    </div>
-
-                    <div>
-                        <label for="c-descrizione" class="block text-xs font-semibold text-sabbia uppercase tracking-wider mb-2">Descrivi la tua idea *</label>
-                        <textarea id="c-descrizione" name="descrizione" rows="5" required placeholder="Cosa proponi, come contribuisce a ripulire il mare, con quali risorse e in quanto tempo..."
-                                  class="w-full bg-abisso/90 border border-sabbia/20 rounded-xl px-5 py-3.5 text-sabbia placeholder-sabbia/60 focus:outline-none focus:border-corallo transition text-sm"></textarea>
-                    </div>
-
-                    <div class="space-y-3 text-xs text-sabbia/85 font-light">
-                        <div class="flex items-start space-x-3">
-                            <input type="checkbox" id="c-apertura" name="apertura" class="mt-0.5 accent-corallo">
-                            <label for="c-apertura">
-                                Acconsento a pubblicare la mia idea in formato aperto (CC0) in caso di selezione.
-                            </label>
-                        </div>
-                        <div class="flex items-start space-x-3">
-                            <input type="checkbox" id="c-privacy" name="privacy" required class="mt-0.5 accent-corallo">
-                            <label for="c-privacy">
-                                Dichiaro di aver letto l'<a href="privacy.html" class="text-corallo underline" target="_blank">Informativa sulla Privacy</a> e acconsento al trattamento dei dati personali.
-                            </label>
-                        </div>
-                    </div>
-
-                    <button type="submit" class="w-full bg-corallo hover:bg-ruggine text-white font-bold py-4 rounded-xl shadow-lg transition duration-200">
-                        Invia la tua Candidatura
-                    </button>
-                </form>
-
-                <div id="concorso-ok" class="hidden mt-8 bg-abisso/60 border border-sabbia/15 rounded-2xl p-8 text-center" role="status">
-                    <svg class="w-12 h-12 mx-auto text-corallo mb-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
-                        <path d="M22 4 12 14.01l-3-3"/>
-                    </svg>
-                    <h3 class="font-serif text-2xl font-bold text-sabbia mb-2">Candidatura ricevuta!</h3>
-                    <p class="text-sabbia/85 text-sm font-light max-w-md mx-auto">
-                        Grazie per la tua idea. Il comitato scientifico del museo ti ricontatterà per completare la candidatura e presentarla alla giuria del Premio Mare.
-                    </p>
-                    <p class="text-xs text-sabbia/70 font-light mt-4">
-                        In questa fase dimostrativa la candidatura non viene inviata a un server: al momento del lancio ufficiale verrà collegata alla casella di raccolta del progetto.
+            <div class="max-w-3xl mx-auto bg-oltremare/40 border border-sabbia/15 p-8 sm:p-12 rounded-3xl shadow-2xl text-center">
+                    <h3 class="font-serif text-2xl font-bold text-sabbia mb-3">Vuoi essere avvisato all'apertura?</h3>
+                    <p class="text-sabbia/85 text-sm font-light max-w-xl mx-auto">
+                        Scrivici a <a href="mailto:info@tonnaragallipoli.it" class="text-corallo underline hover:text-ruggine">info@tonnaragallipoli.it</a>: ti avviseremo quando il bando sarà aperto. Allo stesso indirizzo puoi proporre una collaborazione come scuola, ente o sponsor.
                     </p>
                 </div>
-            </div>
         </div>
     </section>
 

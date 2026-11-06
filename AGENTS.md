@@ -8,10 +8,11 @@ Sito vetrina statico bilingue (IT/EN) del Museo Multimediale della Tonnara di Ga
 - Layout condiviso (skip-link, navbar, footer, switch lingua) generato da `assets/js/layout.js` tramite il dizionario i18n `T` e la funzione `langHref()`; ogni pagina include `<script src="assets/js/layout.js">` prima di `</body>`.
 - Ogni pagina esiste in coppia IT/EN (`nome.html` / `nome-en.html`): tenere le due versioni allineate. Le pagine `-en.html` non devono contenere testo italiano, tranne termini culturali intenzionali (Rais, mattanza, tonnarotti, cialoma, titoli di documenti storici, nomi di file PDF).
 - La Hall of Fame usa descrittori generici ("Un discendente di tonnarotti", "Una famiglia di Gallipoli"): non introdurre nomi fittizi.
-- La newsletter, il form di contatto e la Borsa di Studio "Idee per un Mare Pulito" (`#form-concorso` in `ecologia`/`ecologia-en`) sono dimostrativi (nessun invio a server): le note di trasparenza (`#newsletter-note` e i messaggi "fase dimostrativa" dei form) vanno mantenute.
-- Sezione "Open Archive" in `partecipa.html`/`partecipa-en.html` (form ricercatori dimostrativo) e sezione "Dati Aperti" in `fonti.html`/`fonti-en.html` (link a `data/catalogo.json`): i form non inviano a server, mantenere le note di trasparenza.
+- Sito pubblicato su GitHub Pages con dominio `www.tonnaragallipoli.it` (file `CNAME`, DNS su Register.it). Contatto: `info@tonnaragallipoli.it` (footer, privacy). Titolare privacy: Gianfranco Quaranta.
+- Form funzionanti via Web3Forms (`assets/js/form-demo.js`, costante `ACCESS_KEY`, piano gratuito senza allegati): newsletter (`index`), segnalazione e ricercatori (`partecipa`). Ogni campo da inviare deve avere `name`; il campo honeypot `website` non viene inviato.
+- La Borsa di Studio "Idee per un Mare Pulito" in `ecologia`/`ecologia-en` è un'iniziativa in preparazione: nessun form, solo invito a scrivere a info@.
+- Sezione "Dati Aperti" in `fonti.html`/`fonti-en.html` (link a `data/catalogo.json`).
 - JSON-LD Schema.org iniettato da `layout.js` su tutte le pagine (WebSite/AboutPage/CollectionPage/Article/ItemList/ContactPage a seconda della pagina), generato dinamicamente dal DOM (ItemList del glossario, CollectionPage di archivio).
-- Repo git inizializzato ma senza commit.
 
 ## Comandi
 

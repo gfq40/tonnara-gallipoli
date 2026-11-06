@@ -247,89 +247,15 @@
             <div class="bg-abisso/80 border border-sabbia/10 rounded-3xl p-6 sm:p-8 mb-12 space-y-2 text-sm font-light text-sabbia/85">
                 <p><span class="text-corallo font-semibold">How it works:</span> applications open in spring, the jury (museum scientific committee, scholars and partners) reviews submissions in summer, and the award ceremony takes place during the <strong>Day of the Sea</strong> in autumn, at the museum.</p>
                 <p><span class="text-corallo font-semibold">Openness:</span> submitted ideas, with the authors' consent, will be published in an open, machine-readable format (CC0), consistent with the project's <a href="fonti-en.html" class="text-corallo underline hover:text-ruggine">data catalogue</a> philosophy.</p>
-                <p><span class="text-corallo font-semibold">Demonstrative initiative:</span> the call is presented as a project under development and the form below is demonstrative (no submission to a server).</p>
+                <p><span class="text-corallo font-semibold">Initiative in preparation:</span> the call is not open yet. Rules, prize and deadlines will be published on this page.</p>
             </div>
 
-            <div class="max-w-3xl mx-auto">
-                <form id="form-concorso" class="bg-oltremare/40 border border-sabbia/15 p-8 sm:p-12 rounded-3xl shadow-2xl space-y-6" novalidate>
-                    <h3 class="font-serif text-2xl font-bold text-sabbia">Apply with your idea</h3>
-                    <p class="text-sabbia/85 text-sm font-light -mt-4">
-                        Complete the form: the committee will contact you to complete your application.
-                    </p>
-                    <div class="hidden" aria-hidden="true">
-                        <label for="campo-web-c">Do not fill in this field</label>
-                        <input type="text" id="campo-web-c" name="website" tabindex="-1" autocomplete="off">
-                    </div>
-
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                        <div>
-                            <label for="c-nome" class="block text-xs font-semibold text-sabbia uppercase tracking-wider mb-2">Full Name *</label>
-                            <input type="text" id="c-nome" name="nome" required placeholder="e.g. Mary Smith"
-                                   class="w-full bg-abisso/90 border border-sabbia/20 rounded-xl px-5 py-3.5 text-sabbia placeholder-sabbia/60 focus:outline-none focus:border-corallo transition text-sm">
-                        </div>
-                        <div>
-                            <label for="c-email" class="block text-xs font-semibold text-sabbia uppercase tracking-wider mb-2">Email Address *</label>
-                            <input type="email" id="c-email" name="email" required placeholder="name@example.com"
-                                   class="w-full bg-abisso/90 border border-sabbia/20 rounded-xl px-5 py-3.5 text-sabbia placeholder-sabbia/60 focus:outline-none focus:border-corallo transition text-sm">
-                        </div>
-                    </div>
-
-                    <div>
-                        <label for="c-categoria" class="block text-xs font-semibold text-sabbia uppercase tracking-wider mb-2">Category *</label>
-                        <select id="c-categoria" name="categoria" required
-                                class="w-full bg-abisso/90 border border-sabbia/20 rounded-xl px-5 py-3.5 text-sabbia focus:outline-none focus:border-corallo transition text-sm">
-                            <option value="" disabled selected>Select the category...</option>
-                            <option value="giovani">Young People and Schools (14-19)</option>
-                            <option value="ricercatori">Researchers / Start-ups / Citizens</option>
-                        </select>
-                    </div>
-
-                    <div>
-                        <label for="c-titolo" class="block text-xs font-semibold text-sabbia uppercase tracking-wider mb-2">Title of the idea *</label>
-                        <input type="text" id="c-titolo" name="titolo" required placeholder="A short, clear name for your idea"
-                               class="w-full bg-abisso/90 border border-sabbia/20 rounded-xl px-5 py-3.5 text-sabbia placeholder-sabbia/60 focus:outline-none focus:border-corallo transition text-sm">
-                    </div>
-
-                    <div>
-                        <label for="c-descrizione" class="block text-xs font-semibold text-sabbia uppercase tracking-wider mb-2">Describe your idea *</label>
-                        <textarea id="c-descrizione" name="descrizione" rows="5" required placeholder="What you propose, how it helps clean the sea, with which resources and in what time..."
-                                  class="w-full bg-abisso/90 border border-sabbia/20 rounded-xl px-5 py-3.5 text-sabbia placeholder-sabbia/60 focus:outline-none focus:border-corallo transition text-sm"></textarea>
-                    </div>
-
-                    <div class="space-y-3 text-xs text-sabbia/85 font-light">
-                        <div class="flex items-start space-x-3">
-                            <input type="checkbox" id="c-apertura" name="apertura" class="mt-0.5 accent-corallo">
-                            <label for="c-apertura">
-                                I consent to publish my idea in open format (CC0) if selected.
-                            </label>
-                        </div>
-                        <div class="flex items-start space-x-3">
-                            <input type="checkbox" id="c-privacy" name="privacy" required class="mt-0.5 accent-corallo">
-                            <label for="c-privacy">
-                                I declare that I have read the <a href="privacy-en.html" class="text-corallo underline" target="_blank">Privacy Policy</a> and consent to the processing of my personal data.
-                            </label>
-                        </div>
-                    </div>
-
-                    <button type="submit" class="w-full bg-corallo hover:bg-ruggine text-white font-bold py-4 rounded-xl shadow-lg transition duration-200">
-                        Submit your application
-                    </button>
-                </form>
-
-                <div id="concorso-ok" class="hidden mt-8 bg-abisso/60 border border-sabbia/15 rounded-2xl p-8 text-center" role="status">
-                    <svg class="w-12 h-12 mx-auto text-corallo mb-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
-                        <path d="M22 4 12 14.01l-3-3"/>
-                    </svg>
-                    <h3 class="font-serif text-2xl font-bold text-sabbia mb-2">Application received!</h3>
-                    <p class="text-sabbia/85 text-sm font-light max-w-md mx-auto">
-                        Thank you for your idea. The museum's scientific committee will contact you to complete your application and present it to the Sea Prize jury.
-                    </p>
-                    <p class="text-xs text-sabbia/70 font-light mt-4">
-                        In this demo phase the application is not sent to a server: at official launch it will be connected to the project's collection inbox.
+            <div class="max-w-3xl mx-auto bg-oltremare/40 border border-sabbia/15 p-8 sm:p-12 rounded-3xl shadow-2xl text-center">
+                    <h3 class="font-serif text-2xl font-bold text-sabbia mb-3">Want to be notified when it opens?</h3>
+                    <p class="text-sabbia/85 text-sm font-light max-w-xl mx-auto">
+                        Write to us at <a href="mailto:info@tonnaragallipoli.it" class="text-corallo underline hover:text-ruggine">info@tonnaragallipoli.it</a>: we will let you know when the call opens. You can also use this address to propose a partnership as a school, institution or sponsor.
                     </p>
                 </div>
-            </div>
         </div>
     </section>
 
