@@ -54,7 +54,7 @@ Il sito è statico: basta servire la cartella radice (es. `python3 -m http.serve
 
 - **Contenuti originali del sito (testi, design, foto del fondo Tricarico convertite)**: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) — vedi [LICENSE](LICENSE)
 - **Carte Piri Reis e `data/catalogo.json`**: CC0 (fonte: Walters Art Museum / Wikimedia Commons)
-- **Font**: [Cinzel](https://fonts.google.com/specimen/Cinzel) e [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans) (Google Fonts)
+- **Font**: [Cinzel](https://fonts.google.com/specimen/Cinzel) e [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans), SIL Open Font License, ospitati in `assets/fonts/`
 
 Il sito è un prototipo/vetrina: i form (newsletter, contatti, ricercatori) sono dimostrativi e non inviano dati a server.
 
